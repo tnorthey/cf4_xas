@@ -1,0 +1,30 @@
+$comment
+XAS calculation for valence excited states for CF4+ using cvs-adc(2) + 6-31G* basis set
+job 1 - determination of HF orbitals
+$end
+
+$molecule
+1 2
+6  -0.555894  2.747043  -0.158188
+9  0.63608  2.523061  -0.074062
+9  -1.063517  3.448934  0.694702
+9  -1.413477  0.402999  0.753931
+9  -1.047041  2.772703  -1.274655
+$end
+
+$comment
+cvs-adc(2) calculation
+$end
+
+$rem
+mem_total 3000
+mem_static 1500
+sym_ignore true
+method cvs-adc(2)-x
+basis 6-31G*
+ee_singlets 20
+cc_rest_occ 5                  !only excitations from the lowest N orbitals
+unrestricted  true
+max_scf_cycles 200
+SCF_CONVERGENCE = 6	       
+$end

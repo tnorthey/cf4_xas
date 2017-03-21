@@ -1,0 +1,403 @@
+
+Running Job 1 of 1 ddtraj1t50.inp
+qchem ddtraj1t50.inp_11026.0 /scratch/qchem/qchem11026/ 1
+/mnt/software/qchem/bin/mpi/mpirun_qchem -machinefile /mnt/software/qchem/bin/mpi/machines -np 1 /mnt/software/qchem/exe/qcprog.exe ddtraj1t50.inp_11026.0 /scratch/qchem/qchem11026/
+
+Process 0 of 1 is on tp-linux1 - thread support 0
+initial socket setup ...start
+initial socket setup ...done 
+now start server 0 ... 
+
+cmd = ssh tp-linux1 /mnt/software/qchem/bin/get_hostid 2038047476 > /scratch/qchem/qchem11026/lic.dat
+                  Welcome to Q-Chem
+     A Quantum Leap Into The Future Of Chemistry
+
+
+ Q-Chem 4.3, Q-Chem, Inc., Pleasanton, CA (2015)
+
+ Y. Shao,  Z. Gan,  E. Epifanovsky,  A. T. B. Gilbert,  M. Wormit,  
+ J. Kussmann,  A. W. Lange,  A. Behn,  J. Deng,  X. Feng,  D. Ghosh,  
+ M. Goldey,  P. R. Horn,  L. D. Jacobson,  I. Kaliman,  R. Z. Khaliullin,  
+ T. Kus,  A. Landau,  J. Liu,  E. I. Proynov,  Y. M. Rhee,  R. M. Richard,  
+ M. A. Rohrdanz,  R. P. Steele,  E. J. Sundstrom,  H. L. Woodcock III,  
+ P. M. Zimmerman,  D. Zuev,  B. Albrecht,  E. Alguire,  B. Austin,  
+ S. A. Baeppler,  G. J. O. Beran,  Y. A. Bernard,  E. Berquist,  
+ K. Brandhorst,  K. B. Bravaya,  S. T. Brown,  D. Casanova,  C.-M. Chang,  
+ Y. Chen,  S. H. Chien,  K. D. Closser,  D. L. Crittenden,  M. Diedenhofen,  
+ R. A. DiStasio Jr.,  H. Do,  A. D. Dutoi,  R. G. Edgar,  P.-T. Fang,  
+ S. Fatehi,  Q. Feng,  L. Fusti-Molnar,  A. Ghysels,  
+ A. Golubeva-Zadorozhnaya,  J. Gomes,  A. Gunina,  M. W. D. Hanson-Heine,  
+ P. H. P. Harbach,  A. W. Hauser,  E. G. Hohenstein,  Z. C. Holden,  K. Hui,  
+ T.-C. Jagau,  H. Ji,  B. Kaduk,  K. Khistyaev,  Jaehoon Kim,  Jihan Kim,  
+ R. A. King,  P. Klunzinger,  D. Kosenkov,  T. Kowalczyk,  C. M. Krauter,  
+ K. U. Lao,  A. Laurent,  K. V. Lawler,  S. Lehtola,  S. V. Levchenko,  
+ C. Y. Lin,  Y.-S. Lin,  F. Liu,  E. Livshits,  R. C. Lochan,  A. Luenser,  
+ P. Manohar,  S. F. Manzer,  S.-P. Mao,  N. Mardirossian,  A. V. Marenich,  
+ L. A. Martinez-Martinez,  S. A. Maurer,  N. J. Mayhall,  K. Nanda,  
+ C. M. Oana,  R. Olivares-Amaya,  D. P. O'Neill,  J. A. Parkhill,  
+ T. M. Perrine,  R. Peverati,  P. A. Pieniazek,  F. Plasser,  A. Prociuk,  
+ D. R. Rehn,  E. Rosta,  N. J. Russ,  N. Sergueev,  S. M. Sharada,  
+ S. Sharma,  D. W. Small,  A. Sodt,  T. Stauch,  T. Stein,  D. Stuck,  
+ Y.-C. Su,  A. J. W. Thom,  T. Tsuchimochi,  L. Vogt,  O. Vydrov,  T. Wang,  
+ M. A. Watson,  J. Wenzel,  A. White,  C. F. Williams,  V. Vanovschi,  
+ S. Yeganeh,  S. R. Yost,  Z.-Q. You,  I. Y. Zhang,  X. Zhang,  Y. Zhao,  
+ B. R. Brooks,  G. K. L. Chan,  D. M. Chipman,  C. J. Cramer,  
+ W. A. Goddard III,  M. S. Gordon,  W. J. Hehre,  A. Klamt,  
+ H. F. Schaefer III,  M. W. Schmidt,  C. D. Sherrill,  D. G. Truhlar,  
+ A. Warshel,  X. Xu,  A. Aspuru-Guzik,  R. Baer,  A. T. Bell,  N. A. Besley,  
+ J.-D. Chai,  A. Dreuw,  B. D. Dunietz,  T. R. Furlani,  S. R. Gwaltney,  
+ C.-P. Hsu,  Y. Jung,  J. Kong,  D. S. Lambrecht,  W. Liang,  C. Ochsenfeld,  
+ V. A. Rassolov,  L. V. Slipchenko,  J. E. Subotnik,  T. Van Voorhis,  
+ J. M. Herbert,  A. I. Krylov,  P. M. W. Gill,  M. Head-Gordon
+
+ Contributors to earlier versions of Q-Chem not listed above: 
+ R. D. Adamson,  J. Baker,  E. F. C. Byrd,  A. K. Chakraborty,  C.-L. Cheng,  
+ H. Dachsel,  R. J. Doerksen,  G. Hawkins,  A. Heyden,  S. Hirata,  
+ G. Kedziora,  F. J. Keil,  C. Kelley,  P. P. Korambath,  W. Kurlancheek,  
+ A. M. Lee,  M. S. Lee,  D. Liotard,  I. Lotan,  P. E. Maslen,  N. Nair,  
+ D. Neuhauser,  R. Olson,  B. Peters,  J. Ritchie,  N. E. Schultz,  
+ N. Shenvi,  A. C. Simmonett,  K. S. Thanthiriwatte,  Q. Wu,  W. Zhang
+
+ Please cite Q-Chem as follows:
+ Y. Shao et al., Mol. Phys. 113, 184-215 (2015)
+ DOI: 10.1080/00268976.2014.952696
+
+ Q-Chem 4.3.0 for Intel X86 Linux
+
+ Parts of Q-Chem use Armadillo 5.200.1 (Boston Tea Smuggler).
+ http://arma.sourceforge.net/
+
+ Q-Chem begins on Tue Mar 21 14:31:25 2017  
+
+Host: 
+0
+
+     Scratch files written to /scratch/qchem/qchem11026//
+ Nov1815 1189b_ 19540  19532 5443   
+ Parallel job on  1  processors
+Processing $rem in /mnt/software/qchem/config/preferences.
+ MEM_TOTAL  2000 
+
+Checking the input file for inconsistencies... 	...done.
+
+--------------------------------------------------------------
+User input:
+--------------------------------------------------------------
+$comment
+XAS calculation for valence excited states for CF4+ using cvs-adc(2) + 6-31G* basis set
+job 1 - determination of HF orbitals
+$end
+
+$molecule
+1 2
+6  -0.424778  3.098216  -0.290027
+9  0.667654  2.612517  -0.113749
+9  -1.033332  3.540165  0.655515
+9  -1.596486  -0.108242  0.960942
+9  -1.008609  2.881446  -1.319518
+$end
+
+$comment
+cvs-adc(2) calculation
+$end
+
+$rem
+mem_total 3000
+mem_static 1500
+sym_ignore true
+method cvs-adc(1)
+basis 6-31G*
+ee_singlets 20
+cc_rest_occ 5                  !only excitations from the lowest N orbitals
+unrestricted  true
+max_scf_cycles 200
+$end
+--------------------------------------------------------------
+ ----------------------------------------------------------------
+             Standard Nuclear Orientation (Angstroms)
+    I     Atom           X                Y                Z
+ ----------------------------------------------------------------
+    1      C      -0.4247780000     3.0982160000    -0.2900270000
+    2      F       0.6676540000     2.6125170000    -0.1137490000
+    3      F      -1.0333320000     3.5401650000     0.6555150000
+    4      F      -1.5964860000    -0.1082420000     0.9609420000
+    5      F      -1.0086090000     2.8814460000    -1.3195180000
+ ----------------------------------------------------------------
+ Nuclear Repulsion Energy =   175.0606000387 hartrees
+ There are       21 alpha and       20 beta electrons
+ Requested basis set is 6-31G(d)
+ There are 20 shells and 75 basis functions
+
+ Total QAlloc Memory Limit   3000 MB
+ Mega-Array Size      1467 MB
+ MEM_STATIC part      1500 MB
+
+                       Distance Matrix (Angstroms)
+             C (  1)   F (  2)   F (  3)   F (  4)
+   F (  2)  1.208464
+   F (  3)  1.208183  2.084623
+   F (  4)  3.635821  3.699165  3.704228
+   F (  5)  1.203204  2.082321  2.082133  3.805829
+ 
+ tim1(1): 
+  0.000000000000000E+000
+ tim1(2): 
+  0.000000000000000E+000
+ A cutoff of  1.0D-11 yielded    183 shell pairs
+ There are      2806 function pairs
+ 
+ -------------------------------------------------------
+ OpenMP Integral Computing Module                       
+ Release: version 1.0, May 2013, Q-Chem Inc. Pittsburgh 
+ -------------------------------------------------------
+ Integral Job Info:
+ Integral job number is                      11
+ Integral operator is                         1
+ short-range coefficients                     0
+ long-range coefficients              100000000
+ Omega coefficients                           0
+ if combine SR and LR in K                    0
+ Integral screening is                        0
+ Integral computing path is                   2
+ max size of driver memory is            800000
+ size of driver memory is                593474
+ size of scratch memory is              2260544
+ max col of scratch BK array               1296
+ max len of scratch array in speh3          155
+ max len of scratch index in speh4           18
+ max int batch size is                      520
+ min int batch size is                       52
+ fixed nKL is                                52
+ max L of basis functions is                  2
+ order of int derivative is                   0
+ number of shells is                         20
+ number of basis is                          75
+ number of cartesian basis is                75
+ number of contracted shell pairs           183
+ number of primitive shell pairs            935
+ maxK2 (contraction) of shell pair           36
+ max number of K2 of shell pair               1
+ max number of CS2 of shell pair             31
+ max number of PS2 of shell pair            186
+ mem total for path MDJ                   17476
+ -------------------------------------------------------
+ Smallest overlap matrix eigenvalue = 3.99E-03
+
+ Scale SEOQF with 1.000000e-01/1.000000e-01/1.000000e+00
+
+ Standard Electronic Orientation quadrupole field applied
+ Nucleus-field energy     =    -0.0000000069 hartrees
+ Guess from superposition of atomic densities
+ Warning:  Energy on first SCF cycle will be non-variational
+ An unrestricted Hartree-Fock SCF calculation will be
+ performed using Pulay DIIS extrapolation
+ SCF converges when DIIS error is below 1.0E-08
+ ---------------------------------------
+  Cycle       Energy         DIIS Error
+ ---------------------------------------
+    1    -436.5099685114      9.49E-02
+    2    -434.9925428556      1.76E-02
+    3    -435.1408767524      7.93E-03
+    4    -435.1694159320      1.51E-03
+    5    -435.1704932365      2.87E-04
+    6    -435.1706152123      5.73E-05
+    7    -435.1706249884      1.82E-05
+    8    -435.1706267347      1.30E-05
+    9    -435.1706281231      1.23E-05
+   10    -435.1706293077      1.22E-05
+   11    -435.1706312885      1.21E-05
+   12    -435.1706454433      1.14E-05
+   13    -435.1706463421      1.13E-05
+   14    -435.1706484558      1.12E-05
+   15    -435.1706525608      1.10E-05
+   16    -435.1706854591      9.81E-06
+   17    -435.1707180884      1.24E-05
+   18    -435.1707190989      1.62E-05
+   19    -435.1707199194      8.40E-06
+   20    -435.1707201919      6.20E-06
+   21    -435.1707205665      6.02E-06
+   22    -435.1707211040      5.96E-06
+   23    -435.1707234698      5.74E-06
+   24    -435.1707300753      5.07E-06
+   25    -435.1707302579      4.94E-06
+   26    -435.1707304096      4.88E-06
+   27    -435.1707307846      4.82E-06
+   28    -435.1707314618      4.74E-06
+   29    -435.1707316158      4.71E-06
+   30    -435.1707318695      4.68E-06
+   31    -435.1707348263      4.30E-06
+   32    -435.1707406870      3.60E-06
+   33    -435.1707407707      3.32E-06
+   34    -435.1707408293      3.24E-06
+   35    -435.1707409644      3.20E-06
+   36    -435.1707411124      3.17E-06
+   37    -435.1707428703      2.83E-06
+   38    -435.1707429263      2.79E-06
+   39    -435.1707430167      2.76E-06
+   40    -435.1707431637      2.73E-06
+   41    -435.1707441282      2.52E-06
+   42    -435.1707465057      1.96E-06
+   43    -435.1707465298      1.81E-06
+   44    -435.1707465482      1.77E-06
+   45    -435.1707465843      1.75E-06
+   46    -435.1707466410      1.73E-06
+   47    -435.1707470717      1.57E-06
+   48    -435.1707470894      1.55E-06
+   49    -435.1707471200      1.54E-06
+   50    -435.1707471663      1.52E-06
+   51    -435.1707476011      1.34E-06
+   52    -435.1707485564      8.96E-07
+   53    -435.1707485754      7.33E-07
+   54    -435.1707485835      6.97E-07
+   55    -435.1707485933      6.89E-07
+   56    -435.1707486039      6.81E-07
+   57    -435.1707486265      6.44E-07
+   58    -435.1707486399      6.39E-07
+   59    -435.1707486517      6.33E-07
+   60    -435.1707486613      6.22E-07
+   61    -435.1707486654      6.19E-07
+   62    -435.1707486759      6.10E-07
+   63    -435.1707486943      5.83E-07
+   64    -435.1707487020      5.77E-07
+   65    -435.1707487100      5.72E-07
+   66    -435.1707487174      5.63E-07
+   67    -435.1707487201      5.60E-07
+   68    -435.1707487286      5.52E-07
+   69    -435.1707487484      5.26E-07
+   70    -435.1707487524      5.21E-07
+   71    -435.1707487575      5.16E-07
+   72    -435.1707487635      5.09E-07
+   73    -435.1707487654      5.06E-07
+   74    -435.1707487723      4.98E-07
+   75    -435.1707487912      4.74E-07
+   76    -435.1707487936      4.69E-07
+   77    -435.1707487971      4.64E-07
+   78    -435.1707488017      4.58E-07
+   79    -435.1707488032      4.55E-07
+   80    -435.1707488088      4.48E-07
+   81    -435.1707488258      4.25E-07
+   82    -435.1707488274      4.20E-07
+   83    -435.1707488299      4.16E-07
+   84    -435.1707488335      4.11E-07
+   85    -435.1707488346      4.09E-07
+   86    -435.1707488393      4.02E-07
+   87    -435.1707488541      3.80E-07
+   88    -435.1707488551      3.76E-07
+   89    -435.1707488571      3.72E-07
+   90    -435.1707488598      3.67E-07
+   91    -435.1707488607      3.65E-07
+   92    -435.1707488645      3.59E-07
+   93    -435.1707488771      3.38E-07
+   94    -435.1707488780      3.34E-07
+   95    -435.1707488794      3.31E-07
+   96    -435.1707488815      3.27E-07
+   97    -435.1707488822      3.25E-07
+   98    -435.1707488853      3.20E-07
+   99    -435.1707488960      3.00E-07
+  100    -435.1707488966      2.96E-07
+  101    -435.1707488978      2.93E-07
+  102    -435.1707488993      2.90E-07
+  103    -435.1707488999      2.88E-07
+  104    -435.1707489024      2.83E-07
+  105    -435.1707489113      2.65E-07
+  106    -435.1707489118      2.61E-07
+  107    -435.1707489126      2.58E-07
+  108    -435.1707489138      2.55E-07
+  109    -435.1707489142      2.54E-07
+  110    -435.1707489162      2.50E-07
+  111    -435.1707489236      2.32E-07
+  112    -435.1707489240      2.29E-07
+  113    -435.1707489246      2.27E-07
+  114    -435.1707489255      2.24E-07
+  115    -435.1707489258      2.23E-07
+  116    -435.1707489274      2.19E-07
+  117    -435.1707489334      2.03E-07
+  118    -435.1707489337      2.00E-07
+  119    -435.1707489342      1.97E-07
+  120    -435.1707489349      1.95E-07
+  121    -435.1707489351      1.94E-07
+  122    -435.1707489363      1.91E-07
+  123    -435.1707489412      1.76E-07
+  124    -435.1707489414      1.73E-07
+  125    -435.1707489418      1.71E-07
+  126    -435.1707489423      1.69E-07
+  127    -435.1707489425      1.68E-07
+  128    -435.1707489434      1.65E-07
+  129    -435.1707489473      1.51E-07
+  130    -435.1707489475      1.49E-07
+  131    -435.1707489477      1.47E-07
+  132    -435.1707489481      1.45E-07
+  133    -435.1707489482      1.45E-07
+  134    -435.1707489489      1.42E-07
+  135    -435.1707489520      1.29E-07
+  136    -435.1707489521      1.27E-07
+  137    -435.1707489523      1.25E-07
+  138    -435.1707489525      1.24E-07
+  139    -435.1707489526      1.24E-07
+  140    -435.1707489532      1.21E-07
+  141    -435.1707489556      1.09E-07
+  142    -435.1707489556      1.07E-07
+  143    -435.1707489558      1.06E-07
+  144    -435.1707489559      1.05E-07
+  145    -435.1707489560      1.04E-07
+  146    -435.1707489564      1.02E-07
+  147    -435.1707489582      9.17E-08
+  148    -435.1707489583      9.00E-08
+  149    -435.1707489584      8.89E-08
+  150    -435.1707489585      8.80E-08
+  151    -435.1707489585      8.76E-08
+  152    -435.1707489588      8.57E-08
+  153    -435.1707489602      7.62E-08
+  154    -435.1707489602      7.46E-08
+  155    -435.1707489603      7.37E-08
+  156    -435.1707489604      7.30E-08
+  157    -435.1707489604      7.27E-08
+  158    -435.1707489606      7.10E-08
+  159    -435.1707489616      6.26E-08
+  160    -435.1707489616      6.13E-08
+  161    -435.1707489617      6.05E-08
+  162    -435.1707489617      5.99E-08
+  163    -435.1707489618      5.96E-08
+  164    -435.1707489619      5.82E-08
+  165    -435.1707489626      5.09E-08
+  166    -435.1707489626      4.97E-08
+  167    -435.1707489627      4.90E-08
+  168    -435.1707489627      4.86E-08
+  169    -435.1707489627      4.83E-08
+  170    -435.1707489628      4.72E-08
+  171    -435.1707489633      4.08E-08
+  172    -435.1707489633      3.98E-08
+  173    -435.1707489633      3.93E-08
+  174    -435.1707489633      3.89E-08
+  175    -435.1707489634      3.87E-08
+  176    -435.1707489634      3.77E-08
+  177    -435.1707489638      3.23E-08
+  178    -435.1707489638      3.15E-08
+  179    -435.1707489638      3.10E-08
+  180    -435.1707489638      3.07E-08
+  181    -435.1707489638      3.06E-08
+  182    -435.1707489638      2.98E-08
+  183    -435.1707489641      2.52E-08
+  184    -435.1707489641      2.45E-08
+  185    -435.1707489641      2.42E-08
+  186    -435.1707489641      2.40E-08
+  187    -435.1707489641      2.38E-08
+  188    -435.1707489641      2.32E-08
+  189    -435.1707489642      1.94E-08
+  190    -435.1707489642      1.89E-08
+  191    -435.1707489643      1.86E-08
+  192    -435.1707489643      1.84E-08
+  193    -435.1707489643      1.83E-08
+  194    -435.1707489643      1.78E-08
+  195    -435.1707489644      1.47E-08
+  196    -435.1707489644      1.43E-08
+  197    -435.1707489644      1.41E-08
+  198    -435.1707489644      1.39E-08
+  199    -435.1707489644      1.39E-08
+  200    -435.1707489644      1.34E-08    Convergence failure
+
+ Q-Chem fatal error occurred in module /home/scratch/svnadmin/1189b_zgan/qchem/scfman/scfman.C, line 4456:
+
+ SCF failed to converge
+
+p0_11079:  p4_error: interrupt SIGx: 6

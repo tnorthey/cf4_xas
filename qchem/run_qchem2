@@ -1,0 +1,7 @@
+#!/bin/bash
+
+for i in ddtraj1t{51..100}.inp
+do
+qchem $i ${i%.*}.out
+done
+
