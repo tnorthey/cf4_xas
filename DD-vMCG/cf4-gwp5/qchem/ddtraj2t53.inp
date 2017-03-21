@@ -1,0 +1,44 @@
+$comment
+XAS calculation for the 2b valence excited for water using cvs-adc(2)-x + 6-311+G* basis set
+job 1 - determination of HF orbitals
+$end
+
+$molecule
+0 1
+6  -0.417154  3.231066  -0.325607
+9  0.625237  2.605991  -0.098971
+9  -1.036253  3.568982  0.643767
+9  -1.562476  -0.209134  0.95889
+9  -1.025657  2.885559  -1.290729
+$end
+
+$rem
+jobtype      sp
+sym_ignore true
+exchange     hf
+basis        6-31G*
+unrestricted true
+$end
+
+@@@
+
+$comment
+job3 - cvs-adc(2) calculation
+$end
+
+$molecule
+read
+$end
+
+$rem
+mem_total 3000
+mem_static 1500
+sym_ignore true
+scf_guess read
+method cvs-adc(2)
+basis 6-31G*
+ee_singlets 20
+cc_rest_occ 5                  !only excitations from the lowest N orbitals
+unrestricted  true
+max_scf_cycles 200
+$end

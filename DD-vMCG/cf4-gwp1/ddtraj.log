@@ -1,0 +1,21 @@
+
+Program name: ddtraj
+
+--------------------------------------------------------------------------------
+****** Package version ******
+
+Program Version :     1
+Release         :     1
+
+ SVN version: No svnversion found
+--------------------------------------------------------------------------------
+
+Compiled: Mon Jan 9 15:01:52 GMT 2017 ; Host: tp-linux1                         
+
+ complex*16 :        762
+ real*8     :         34
+ integer    :          5
+ logical    :          1
+ complex*8  :          8
+ real*4     :          0
+ Total   :         12628 Bytes ,      0.01 MB

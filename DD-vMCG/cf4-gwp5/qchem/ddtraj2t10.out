@@ -1,0 +1,1217 @@
+
+Running Job 1 of 2 ddtraj2t10.inp
+qchem ddtraj2t10.inp_30686.0 /scratch/qchem/qchem30686/ 1
+/mnt/software/qchem/bin/mpi/mpirun_qchem -machinefile /mnt/software/qchem/bin/mpi/machines -np 1 /mnt/software/qchem/exe/qcprog.exe ddtraj2t10.inp_30686.0 /scratch/qchem/qchem30686/
+
+Process 0 of 1 is on tp-linux1 - thread support 0
+initial socket setup ...start
+initial socket setup ...done 
+now start server 0 ... 
+
+cmd = ssh tp-linux1 /mnt/software/qchem/bin/get_hostid 1789522731 > /scratch/qchem/qchem30686/lic.dat
+                  Welcome to Q-Chem
+     A Quantum Leap Into The Future Of Chemistry
+
+
+ Q-Chem 4.3, Q-Chem, Inc., Pleasanton, CA (2015)
+
+ Y. Shao,  Z. Gan,  E. Epifanovsky,  A. T. B. Gilbert,  M. Wormit,  
+ J. Kussmann,  A. W. Lange,  A. Behn,  J. Deng,  X. Feng,  D. Ghosh,  
+ M. Goldey,  P. R. Horn,  L. D. Jacobson,  I. Kaliman,  R. Z. Khaliullin,  
+ T. Kus,  A. Landau,  J. Liu,  E. I. Proynov,  Y. M. Rhee,  R. M. Richard,  
+ M. A. Rohrdanz,  R. P. Steele,  E. J. Sundstrom,  H. L. Woodcock III,  
+ P. M. Zimmerman,  D. Zuev,  B. Albrecht,  E. Alguire,  B. Austin,  
+ S. A. Baeppler,  G. J. O. Beran,  Y. A. Bernard,  E. Berquist,  
+ K. Brandhorst,  K. B. Bravaya,  S. T. Brown,  D. Casanova,  C.-M. Chang,  
+ Y. Chen,  S. H. Chien,  K. D. Closser,  D. L. Crittenden,  M. Diedenhofen,  
+ R. A. DiStasio Jr.,  H. Do,  A. D. Dutoi,  R. G. Edgar,  P.-T. Fang,  
+ S. Fatehi,  Q. Feng,  L. Fusti-Molnar,  A. Ghysels,  
+ A. Golubeva-Zadorozhnaya,  J. Gomes,  A. Gunina,  M. W. D. Hanson-Heine,  
+ P. H. P. Harbach,  A. W. Hauser,  E. G. Hohenstein,  Z. C. Holden,  K. Hui,  
+ T.-C. Jagau,  H. Ji,  B. Kaduk,  K. Khistyaev,  Jaehoon Kim,  Jihan Kim,  
+ R. A. King,  P. Klunzinger,  D. Kosenkov,  T. Kowalczyk,  C. M. Krauter,  
+ K. U. Lao,  A. Laurent,  K. V. Lawler,  S. Lehtola,  S. V. Levchenko,  
+ C. Y. Lin,  Y.-S. Lin,  F. Liu,  E. Livshits,  R. C. Lochan,  A. Luenser,  
+ P. Manohar,  S. F. Manzer,  S.-P. Mao,  N. Mardirossian,  A. V. Marenich,  
+ L. A. Martinez-Martinez,  S. A. Maurer,  N. J. Mayhall,  K. Nanda,  
+ C. M. Oana,  R. Olivares-Amaya,  D. P. O'Neill,  J. A. Parkhill,  
+ T. M. Perrine,  R. Peverati,  P. A. Pieniazek,  F. Plasser,  A. Prociuk,  
+ D. R. Rehn,  E. Rosta,  N. J. Russ,  N. Sergueev,  S. M. Sharada,  
+ S. Sharma,  D. W. Small,  A. Sodt,  T. Stauch,  T. Stein,  D. Stuck,  
+ Y.-C. Su,  A. J. W. Thom,  T. Tsuchimochi,  L. Vogt,  O. Vydrov,  T. Wang,  
+ M. A. Watson,  J. Wenzel,  A. White,  C. F. Williams,  V. Vanovschi,  
+ S. Yeganeh,  S. R. Yost,  Z.-Q. You,  I. Y. Zhang,  X. Zhang,  Y. Zhao,  
+ B. R. Brooks,  G. K. L. Chan,  D. M. Chipman,  C. J. Cramer,  
+ W. A. Goddard III,  M. S. Gordon,  W. J. Hehre,  A. Klamt,  
+ H. F. Schaefer III,  M. W. Schmidt,  C. D. Sherrill,  D. G. Truhlar,  
+ A. Warshel,  X. Xu,  A. Aspuru-Guzik,  R. Baer,  A. T. Bell,  N. A. Besley,  
+ J.-D. Chai,  A. Dreuw,  B. D. Dunietz,  T. R. Furlani,  S. R. Gwaltney,  
+ C.-P. Hsu,  Y. Jung,  J. Kong,  D. S. Lambrecht,  W. Liang,  C. Ochsenfeld,  
+ V. A. Rassolov,  L. V. Slipchenko,  J. E. Subotnik,  T. Van Voorhis,  
+ J. M. Herbert,  A. I. Krylov,  P. M. W. Gill,  M. Head-Gordon
+
+ Contributors to earlier versions of Q-Chem not listed above: 
+ R. D. Adamson,  J. Baker,  E. F. C. Byrd,  A. K. Chakraborty,  C.-L. Cheng,  
+ H. Dachsel,  R. J. Doerksen,  G. Hawkins,  A. Heyden,  S. Hirata,  
+ G. Kedziora,  F. J. Keil,  C. Kelley,  P. P. Korambath,  W. Kurlancheek,  
+ A. M. Lee,  M. S. Lee,  D. Liotard,  I. Lotan,  P. E. Maslen,  N. Nair,  
+ D. Neuhauser,  R. Olson,  B. Peters,  J. Ritchie,  N. E. Schultz,  
+ N. Shenvi,  A. C. Simmonett,  K. S. Thanthiriwatte,  Q. Wu,  W. Zhang
+
+ Please cite Q-Chem as follows:
+ Y. Shao et al., Mol. Phys. 113, 184-215 (2015)
+ DOI: 10.1080/00268976.2014.952696
+
+ Q-Chem 4.3.0 for Intel X86 Linux
+
+ Parts of Q-Chem use Armadillo 5.200.1 (Boston Tea Smuggler).
+ http://arma.sourceforge.net/
+
+ Q-Chem begins on Thu Mar 16 21:00:12 2017  
+
+Host: 
+0
+
+     Scratch files written to /scratch/qchem/qchem30686//
+ Nov1815 1189b_ 19540  19532 5443   
+ Parallel job on  1  processors
+Processing $rem in /mnt/software/qchem/config/preferences.
+ MEM_TOTAL  2000 
+
+Checking the input file for inconsistencies... 	...done.
+
+--------------------------------------------------------------
+User input:
+--------------------------------------------------------------
+$comment
+XAS calculation for the 2b valence excited for water using cvs-adc(2)-x + 6-311+G* basis set
+job 1 - determination of HF orbitals
+$end
+
+$molecule
+0 1
+6  -0.6222  2.695333  -0.089921
+9  0.592584  2.316233  0.016535
+9  -1.147263  3.273475  0.788404
+9  -1.175744  1.069309  0.477933
+9  -1.153321  2.54634  -1.208046
+$end
+
+$rem
+jobtype      sp
+sym_ignore true
+exchange     hf
+basis        6-31G*
+unrestricted true
+$end
+
+--------------------------------------------------------------
+ ----------------------------------------------------------------
+             Standard Nuclear Orientation (Angstroms)
+    I     Atom           X                Y                Z
+ ----------------------------------------------------------------
+    1      C      -0.6222000000     2.6953330000    -0.0899210000
+    2      F       0.5925840000     2.3162330000     0.0165350000
+    3      F      -1.1472630000     3.2734750000     0.7884040000
+    4      F      -1.1757440000     1.0693090000     0.4779330000
+    5      F      -1.1533210000     2.5463400000    -1.2080460000
+ ----------------------------------------------------------------
+ Nuclear Repulsion Energy =   203.4311542506 hartrees
+ There are       21 alpha and       21 beta electrons
+ Requested basis set is 6-31G(d)
+ There are 20 shells and 75 basis functions
+
+ Total QAlloc Memory Limit   2000 MB
+ Mega-Array Size        61 MB
+ MEM_STATIC part        62 MB
+
+                       Distance Matrix (Angstroms)
+             C (  1)   F (  2)   F (  3)   F (  4)
+   F (  2)  1.277008
+   F (  3)  1.175327  2.130531
+   F (  4)  1.809095  2.212395  2.226107
+   F (  5)  1.246793  2.144932  2.124753  2.241573
+ 
+ tim1(1): 
+  0.000000000000000E+000
+ tim1(2): 
+  0.000000000000000E+000
+ A cutoff of  1.0D-08 yielded    197 shell pairs
+ There are      2954 function pairs
+ 
+ -------------------------------------------------------
+ OpenMP Integral Computing Module                       
+ Release: version 1.0, May 2013, Q-Chem Inc. Pittsburgh 
+ -------------------------------------------------------
+ Integral Job Info:
+ Integral job number is                      11
+ Integral operator is                         1
+ short-range coefficients                     0
+ long-range coefficients              100000000
+ Omega coefficients                           0
+ if combine SR and LR in K                    0
+ Integral screening is                        0
+ Integral computing path is                   2
+ max size of driver memory is            800000
+ size of driver memory is                593474
+ size of scratch memory is              2260544
+ max col of scratch BK array               1296
+ max len of scratch array in speh3          155
+ max len of scratch index in speh4           18
+ max int batch size is                      520
+ min int batch size is                       52
+ fixed nKL is                                52
+ max L of basis functions is                  2
+ order of int derivative is                   0
+ number of shells is                         20
+ number of basis is                          75
+ number of cartesian basis is                75
+ number of contracted shell pairs           197
+ number of primitive shell pairs            968
+ maxK2 (contraction) of shell pair           36
+ max number of K2 of shell pair               1
+ max number of CS2 of shell pair             31
+ max number of PS2 of shell pair            180
+ mem total for path MDJ                   21832
+ -------------------------------------------------------
+ Smallest overlap matrix eigenvalue = 1.53E-03
+
+ Scale SEOQF with 1.000000e+00/1.000000e-01/1.000000e+00
+
+ Standard Electronic Orientation quadrupole field applied
+ Nucleus-field energy     =     0.0000000109 hartrees
+ Guess from superposition of atomic densities
+ Warning:  Energy on first SCF cycle will be non-variational
+ An unrestricted Hartree-Fock SCF calculation will be
+ performed using Pulay DIIS extrapolation
+ SCF converges when DIIS error is below 1.0E-05
+ using 8 threads for integral computing 
+ ---------------------------------------
+  Cycle       Energy         DIIS Error
+ ---------------------------------------
+    1    -436.4994320070      9.14E-02
+    2    -435.2817451257      1.97E-02
+    3    -435.4280785400      1.25E-02
+    4    -435.4984794261      1.20E-03
+    5    -435.4994474755      4.07E-04
+    6    -435.4995865400      1.19E-04
+    7    -435.4995993621      4.68E-05
+    8    -435.4996016143      8.90E-06 Convergence criterion met
+ ---------------------------------------
+ <S^2> = 0.0000
+ SCF time:  CPU 9.56 s  wall 1.77 s
+ SCF   energy in the final basis set = -435.4996016143
+ Total energy in the final basis set = -435.4996016143
+ 
+ --------------------------------------------------------------
+ 
+                    Orbital Energies (a.u.)
+ --------------------------------------------------------------
+ 
+ Alpha MOs
+ -- Occupied --
+-26.479 -26.446 -26.430 -26.143 -11.661  -1.896  -1.792  -1.746
+ -1.404  -1.056  -0.967  -0.958  -0.910  -0.799  -0.793  -0.787
+ -0.763  -0.738  -0.494  -0.494  -0.484
+ -- Virtual --
+  0.132   0.345   0.455   0.487   0.620   0.657   0.734   0.777
+  1.223   1.258   1.272   1.316   1.324   1.440   1.506   1.517
+  1.555   1.557   1.569   1.578   1.724   1.737   1.752   1.909
+  1.923   1.996   2.009   2.022   2.052   2.143   2.175   2.183
+  2.199   2.288   2.322   2.325   2.342   2.430   2.459   2.480
+  2.711   2.917   3.001   3.094   3.208   3.305   3.495   3.536
+  3.567   4.283   4.677   5.070   5.370   6.654
+ 
+ Beta MOs
+ -- Occupied --
+-26.479 -26.446 -26.430 -26.143 -11.661  -1.896  -1.792  -1.746
+ -1.404  -1.056  -0.967  -0.958  -0.910  -0.799  -0.793  -0.787
+ -0.763  -0.738  -0.494  -0.494  -0.484
+ -- Virtual --
+  0.132   0.345   0.455   0.487   0.620   0.657   0.734   0.777
+  1.223   1.258   1.272   1.316   1.324   1.440   1.506   1.517
+  1.555   1.557   1.569   1.578   1.724   1.737   1.752   1.909
+  1.923   1.996   2.009   2.022   2.052   2.143   2.175   2.183
+  2.199   2.288   2.322   2.325   2.342   2.430   2.459   2.480
+  2.711   2.917   3.001   3.094   3.208   3.305   3.495   3.536
+  3.567   4.283   4.677   5.070   5.370   6.654
+ --------------------------------------------------------------
+ 
+          Ground-State Mulliken Net Atomic Charges
+
+     Atom                 Charge (a.u.)    Spin (a.u.)
+  --------------------------------------------------------
+      1 C                     1.227594       0.000000
+      2 F                    -0.243580       0.000000
+      3 F                    -0.117973       0.000000
+      4 F                    -0.654882       0.000000
+      5 F                    -0.211159       0.000000
+  --------------------------------------------------------
+  Sum of atomic charges =     0.000000
+  Sum of spin   charges =     0.000000
+
+ -----------------------------------------------------------------
+                    Cartesian Multipole Moments
+ -----------------------------------------------------------------
+    Charge (ESU x 10^10)
+                 0.0000
+    Dipole Moment (Debye)
+         X       1.2172      Y       4.7597      Z      -1.3172
+       Tot       5.0864
+    Quadrupole Moments (Debye-Ang)
+        XX     -26.1194     XY      -1.8648     YY      -4.3343
+        XZ       1.3229     YZ      -1.6161     ZZ     -24.0989
+    Octopole Moments (Debye-Ang^2)
+       XXX      53.2858    XXY     -56.1647    XYY       5.9060
+       YYY    -102.3160    XXZ      -1.5694    XYZ       1.0597
+       YYZ      -2.8610    XZZ      17.4057    YZZ     -55.6873
+       ZZZ      -0.2472
+    Hexadecapole Moments (Debye-Ang^3)
+      XXXX    -151.1761   XXXY     115.7668   XXYY    -165.2766
+      XYYY      78.9144   YYYY    -667.4131   XXXZ       2.7367
+      XXYZ       0.0996   XYYZ       0.2385   YYYZ      -5.1727
+      XXZZ     -37.9489   XYZZ      39.0549   YYZZ    -157.3795
+      XZZZ       0.9406   YZZZ       4.1908   ZZZZ     -75.9728
+ -----------------------------------------------------------------
+Archival summary:
+1\1\tp-linux1\SP\HF\6-31G*\41\thomas\ThuMar1621:00:142017ThuMar1621:00:142017\0\\#,HF,6-31G*,\\0,1\C\F,1,1.17533\F,1,1.24679,2,122.592\F,1,1.27701,2,120.577,3,-172.129,0\F,1,1.80909,2,94.0634,3,95.5934,0\\HF=-435.499602\\@
+
+ Total job time:  2.08s(wall), 11.25s(cpu) 
+ Thu Mar 16 21:00:14 2017
+
+        *************************************************************
+        *                                                           *
+        *  Thank you very much for using Q-Chem.  Have a nice day.  *
+        *                                                           *
+        *************************************************************
+
+
+0 sent ACK to 0 
+now end server 0 ... 
+cleanup process ... done
+
+Running Job 2 of 2 ddtraj2t10.inp
+qchem ddtraj2t10.inp_30686.1 /scratch/qchem/qchem30686/ 1
+/mnt/software/qchem/bin/mpi/mpirun_qchem -machinefile /mnt/software/qchem/bin/mpi/machines -np 1 /mnt/software/qchem/exe/qcprog.exe ddtraj2t10.inp_30686.1 /scratch/qchem/qchem30686/
+
+Process 0 of 1 is on tp-linux1 - thread support 0
+initial socket setup ...start
+initial socket setup ...done 
+now start server 0 ... 
+
+cmd = ssh tp-linux1 /mnt/software/qchem/bin/get_hostid 1347517343 > /scratch/qchem/qchem30686/lic.dat
+                  Welcome to Q-Chem
+     A Quantum Leap Into The Future Of Chemistry
+
+
+ Q-Chem 4.3, Q-Chem, Inc., Pleasanton, CA (2015)
+
+ Y. Shao,  Z. Gan,  E. Epifanovsky,  A. T. B. Gilbert,  M. Wormit,  
+ J. Kussmann,  A. W. Lange,  A. Behn,  J. Deng,  X. Feng,  D. Ghosh,  
+ M. Goldey,  P. R. Horn,  L. D. Jacobson,  I. Kaliman,  R. Z. Khaliullin,  
+ T. Kus,  A. Landau,  J. Liu,  E. I. Proynov,  Y. M. Rhee,  R. M. Richard,  
+ M. A. Rohrdanz,  R. P. Steele,  E. J. Sundstrom,  H. L. Woodcock III,  
+ P. M. Zimmerman,  D. Zuev,  B. Albrecht,  E. Alguire,  B. Austin,  
+ S. A. Baeppler,  G. J. O. Beran,  Y. A. Bernard,  E. Berquist,  
+ K. Brandhorst,  K. B. Bravaya,  S. T. Brown,  D. Casanova,  C.-M. Chang,  
+ Y. Chen,  S. H. Chien,  K. D. Closser,  D. L. Crittenden,  M. Diedenhofen,  
+ R. A. DiStasio Jr.,  H. Do,  A. D. Dutoi,  R. G. Edgar,  P.-T. Fang,  
+ S. Fatehi,  Q. Feng,  L. Fusti-Molnar,  A. Ghysels,  
+ A. Golubeva-Zadorozhnaya,  J. Gomes,  A. Gunina,  M. W. D. Hanson-Heine,  
+ P. H. P. Harbach,  A. W. Hauser,  E. G. Hohenstein,  Z. C. Holden,  K. Hui,  
+ T.-C. Jagau,  H. Ji,  B. Kaduk,  K. Khistyaev,  Jaehoon Kim,  Jihan Kim,  
+ R. A. King,  P. Klunzinger,  D. Kosenkov,  T. Kowalczyk,  C. M. Krauter,  
+ K. U. Lao,  A. Laurent,  K. V. Lawler,  S. Lehtola,  S. V. Levchenko,  
+ C. Y. Lin,  Y.-S. Lin,  F. Liu,  E. Livshits,  R. C. Lochan,  A. Luenser,  
+ P. Manohar,  S. F. Manzer,  S.-P. Mao,  N. Mardirossian,  A. V. Marenich,  
+ L. A. Martinez-Martinez,  S. A. Maurer,  N. J. Mayhall,  K. Nanda,  
+ C. M. Oana,  R. Olivares-Amaya,  D. P. O'Neill,  J. A. Parkhill,  
+ T. M. Perrine,  R. Peverati,  P. A. Pieniazek,  F. Plasser,  A. Prociuk,  
+ D. R. Rehn,  E. Rosta,  N. J. Russ,  N. Sergueev,  S. M. Sharada,  
+ S. Sharma,  D. W. Small,  A. Sodt,  T. Stauch,  T. Stein,  D. Stuck,  
+ Y.-C. Su,  A. J. W. Thom,  T. Tsuchimochi,  L. Vogt,  O. Vydrov,  T. Wang,  
+ M. A. Watson,  J. Wenzel,  A. White,  C. F. Williams,  V. Vanovschi,  
+ S. Yeganeh,  S. R. Yost,  Z.-Q. You,  I. Y. Zhang,  X. Zhang,  Y. Zhao,  
+ B. R. Brooks,  G. K. L. Chan,  D. M. Chipman,  C. J. Cramer,  
+ W. A. Goddard III,  M. S. Gordon,  W. J. Hehre,  A. Klamt,  
+ H. F. Schaefer III,  M. W. Schmidt,  C. D. Sherrill,  D. G. Truhlar,  
+ A. Warshel,  X. Xu,  A. Aspuru-Guzik,  R. Baer,  A. T. Bell,  N. A. Besley,  
+ J.-D. Chai,  A. Dreuw,  B. D. Dunietz,  T. R. Furlani,  S. R. Gwaltney,  
+ C.-P. Hsu,  Y. Jung,  J. Kong,  D. S. Lambrecht,  W. Liang,  C. Ochsenfeld,  
+ V. A. Rassolov,  L. V. Slipchenko,  J. E. Subotnik,  T. Van Voorhis,  
+ J. M. Herbert,  A. I. Krylov,  P. M. W. Gill,  M. Head-Gordon
+
+ Contributors to earlier versions of Q-Chem not listed above: 
+ R. D. Adamson,  J. Baker,  E. F. C. Byrd,  A. K. Chakraborty,  C.-L. Cheng,  
+ H. Dachsel,  R. J. Doerksen,  G. Hawkins,  A. Heyden,  S. Hirata,  
+ G. Kedziora,  F. J. Keil,  C. Kelley,  P. P. Korambath,  W. Kurlancheek,  
+ A. M. Lee,  M. S. Lee,  D. Liotard,  I. Lotan,  P. E. Maslen,  N. Nair,  
+ D. Neuhauser,  R. Olson,  B. Peters,  J. Ritchie,  N. E. Schultz,  
+ N. Shenvi,  A. C. Simmonett,  K. S. Thanthiriwatte,  Q. Wu,  W. Zhang
+
+ Please cite Q-Chem as follows:
+ Y. Shao et al., Mol. Phys. 113, 184-215 (2015)
+ DOI: 10.1080/00268976.2014.952696
+
+ Q-Chem 4.3.0 for Intel X86 Linux
+
+ Parts of Q-Chem use Armadillo 5.200.1 (Boston Tea Smuggler).
+ http://arma.sourceforge.net/
+
+ Q-Chem begins on Thu Mar 16 21:00:17 2017  
+
+Host: 
+0
+
+     Scratch files written to /scratch/qchem/qchem30686//
+ Nov1815 1189b_ 19540  19532 5443   
+ Parallel job on  1  processors
+Processing $rem in /mnt/software/qchem/config/preferences.
+ MEM_TOTAL  2000 
+
+Checking the input file for inconsistencies... 	...done.
+
+--------------------------------------------------------------
+User input:
+--------------------------------------------------------------
+
+$comment
+job3 - cvs-adc(2) calculation
+$end
+
+$molecule
+read
+$end
+
+$rem
+mem_total 3000
+mem_static 1500
+sym_ignore true
+scf_guess read
+method cvs-adc(2)
+basis 6-31G*
+ee_singlets 20
+cc_rest_occ 5                  !only excitations from the lowest N orbitals
+unrestricted  true
+max_scf_cycles 200
+$end
+--------------------------------------------------------------
+ ----------------------------------------------------------------
+             Standard Nuclear Orientation (Angstroms)
+    I     Atom           X                Y                Z
+ ----------------------------------------------------------------
+    1      C      -0.6222000000     2.6953330000    -0.0899210000
+    2      F       0.5925840000     2.3162330000     0.0165350000
+    3      F      -1.1472630000     3.2734750000     0.7884040000
+    4      F      -1.1757440000     1.0693090000     0.4779330000
+    5      F      -1.1533210000     2.5463400000    -1.2080460000
+ ----------------------------------------------------------------
+ Nuclear Repulsion Energy =   203.4311542506 hartrees
+ There are       21 alpha and       21 beta electrons
+ Requested basis set is 6-31G(d)
+ There are 20 shells and 75 basis functions
+
+ Total QAlloc Memory Limit   3000 MB
+ Mega-Array Size      1467 MB
+ MEM_STATIC part      1500 MB
+
+                       Distance Matrix (Angstroms)
+             C (  1)   F (  2)   F (  3)   F (  4)
+   F (  2)  1.277008
+   F (  3)  1.175327  2.130531
+   F (  4)  1.809095  2.212395  2.226107
+   F (  5)  1.246793  2.144932  2.124753  2.241573
+ 
+ tim1(1): 
+  0.000000000000000E+000
+ tim1(2): 
+  0.000000000000000E+000
+ A cutoff of  1.0D-11 yielded    203 shell pairs
+ There are      2978 function pairs
+ 
+ -------------------------------------------------------
+ OpenMP Integral Computing Module                       
+ Release: version 1.0, May 2013, Q-Chem Inc. Pittsburgh 
+ -------------------------------------------------------
+ Integral Job Info:
+ Integral job number is                      11
+ Integral operator is                         1
+ short-range coefficients                     0
+ long-range coefficients              100000000
+ Omega coefficients                           0
+ if combine SR and LR in K                    0
+ Integral screening is                        0
+ Integral computing path is                   2
+ max size of driver memory is            800000
+ size of driver memory is                593474
+ size of scratch memory is              2260544
+ max col of scratch BK array               1296
+ max len of scratch array in speh3          155
+ max len of scratch index in speh4           18
+ max int batch size is                      520
+ min int batch size is                       52
+ fixed nKL is                                52
+ max L of basis functions is                  2
+ order of int derivative is                   0
+ number of shells is                         20
+ number of basis is                          75
+ number of cartesian basis is                75
+ number of contracted shell pairs           203
+ number of primitive shell pairs           1068
+ maxK2 (contraction) of shell pair           36
+ max number of K2 of shell pair               1
+ max number of CS2 of shell pair             37
+ max number of PS2 of shell pair            222
+ mem total for path MDJ                   21832
+ -------------------------------------------------------
+ Smallest overlap matrix eigenvalue = 1.53E-03
+
+ Scale SEOQF with 1.000000e+00/1.000000e-01/1.000000e+00
+
+ Standard Electronic Orientation quadrupole field applied
+ Nucleus-field energy     =     0.0000000109 hartrees
+ Guess MOs from SCF MO coefficient file
+ Reading MOs from coefficient file
+ Reading MOs from coefficient file
+ An unrestricted Hartree-Fock SCF calculation will be
+ performed using Pulay DIIS extrapolation
+ SCF converges when DIIS error is below 1.0E-08
+ using 8 threads for integral computing 
+ ---------------------------------------
+  Cycle       Energy         DIIS Error
+ ---------------------------------------
+    1    -435.4996017858      3.08E-06
+    2    -435.4996017969      1.32E-06
+    3    -435.4996017997      9.20E-07
+    4    -435.4996018008      1.00E-07
+    5    -435.4996018008      4.10E-08
+    6    -435.4996018008      1.36E-08
+    7    -435.4996018008      4.56E-09 Convergence criterion met
+ ---------------------------------------
+ <S^2> = 0.0000
+ SCF time:  CPU 7.34 s  wall 1.83 s
+ SCF   energy in the final basis set = -435.4996018008
+ Total energy in the final basis set = -435.4996018008
+================================================================================
+|                                                                              |
+|                                 A D C  M A N                                 |
+|                                                                              |
+ ------------------------------------------------------------------------------ 
+|                                                                              |
+| Components:                                                                  |
+|                                                                              |
+| - libvmm - 1.2-release                                                       |
+|   Authors:                                                                   |
+|   Evgeny Epifanovsky, Ilya Kaliman                                           |
+|                                                                              |
+| - libtensor - 2.4-trunk                                                      |
+|   Authors:                                                                   |
+|   Evgeny Epifanovsky, Michael Wormit, Dmitry Zuev, Sam Manzer                |
+|                                                                              |
+| - libwfa - 1.1-beta                                                          |
+|   Authors:                                                                   |
+|   Felix Plasser, Stefanie Baeppler, Benjamin Thomitzni, Michael Wormit       |
+|                                                                              |
+| - libadc - 1.0-beta                                                          |
+|   Authors:                                                                   |
+|   Michael Wormit, Philipp H. P. Harbach, Caroline Krauter, Dirk Rehn,        |
+|   Matthias Schneider, Jan Wenzel                                             |
+|                                                                              |
+| - adcman - 2.4-beta                                                          |
+|   Authors:                                                                   |
+|   Michael Wormit, Philipp H. P. Harbach, Caroline Krauter, Dirk Rehn,        |
+|   Jan Wenzel, Andreas Dreuw                                                  |
+|                                                                              |
+| Authors of earlier versions of ADCMAN:                                       |
+| Andreas Dreuw, Jan Hendrik Starcke, Dirk Rehn, Michael Wormit                |
+|                                                                              |
+================================================================================
+
+ 
+ Alpha MOs, Unrestricted
+ -- Occupied --                  
+-26.479 -26.446 -26.430 -26.143 -11.661  -1.896  -1.792  -1.746
+  1 A     2 A     3 A     4 A     5 A     6 A     7 A     8 A                  
+ -1.404  -1.056  -0.967  -0.958  -0.910  -0.799  -0.793  -0.787
+  9 A    10 A    11 A    12 A    13 A    14 A    15 A    16 A                  
+ -0.763  -0.738  -0.495  -0.494  -0.484
+ 17 A    18 A    19 A    20 A    21 A                                          
+ -- Virtual --                   
+  0.132   0.345   0.455   0.487   0.620   0.657   0.734   0.777
+ 22 A    23 A    24 A    25 A    26 A    27 A    28 A    29 A                  
+  1.223   1.258   1.272   1.316   1.324   1.440   1.506   1.517
+ 30 A    31 A    32 A    33 A    34 A    35 A    36 A    37 A                  
+  1.555   1.557   1.569   1.578   1.724   1.737   1.752   1.909
+ 38 A    39 A    40 A    41 A    42 A    43 A    44 A    45 A                  
+  1.923   1.996   2.009   2.022   2.052   2.143   2.175   2.183
+ 46 A    47 A    48 A    49 A    50 A    51 A    52 A    53 A                  
+  2.199   2.288   2.322   2.325   2.342   2.430   2.459   2.480
+ 54 A    55 A    56 A    57 A    58 A    59 A    60 A    61 A                  
+  2.711   2.917   3.001   3.094   3.208   3.305   3.495   3.536
+ 62 A    63 A    64 A    65 A    66 A    67 A    68 A    69 A                  
+  3.567   4.282   4.677   5.070   5.370   6.654
+ 70 A    71 A    72 A    73 A    74 A    75 A                                  
+ 
+ Beta MOs, Unrestricted
+ -- Occupied --                  
+-26.479 -26.446 -26.430 -26.143 -11.661  -1.896  -1.792  -1.746
+  1 A     2 A     3 A     4 A     5 A     6 A     7 A     8 A                  
+ -1.404  -1.056  -0.967  -0.958  -0.910  -0.799  -0.793  -0.787
+  9 A    10 A    11 A    12 A    13 A    14 A    15 A    16 A                  
+ -0.763  -0.738  -0.495  -0.494  -0.484
+ 17 A    18 A    19 A    20 A    21 A                                          
+ -- Virtual --                   
+  0.132   0.345   0.455   0.487   0.620   0.657   0.734   0.777
+ 22 A    23 A    24 A    25 A    26 A    27 A    28 A    29 A                  
+  1.223   1.258   1.272   1.316   1.324   1.440   1.506   1.517
+ 30 A    31 A    32 A    33 A    34 A    35 A    36 A    37 A                  
+  1.555   1.557   1.569   1.578   1.724   1.737   1.752   1.909
+ 38 A    39 A    40 A    41 A    42 A    43 A    44 A    45 A                  
+  1.923   1.996   2.009   2.022   2.052   2.143   2.175   2.183
+ 46 A    47 A    48 A    49 A    50 A    51 A    52 A    53 A                  
+  2.199   2.288   2.322   2.325   2.342   2.430   2.459   2.480
+ 54 A    55 A    56 A    57 A    58 A    59 A    60 A    61 A                  
+  2.711   2.917   3.001   3.094   3.208   3.305   3.495   3.536
+ 62 A    63 A    64 A    65 A    66 A    67 A    68 A    69 A                  
+  3.567   4.282   4.677   5.070   5.370   6.654
+ 70 A    71 A    72 A    73 A    74 A    75 A                                  
+ 
+
+--------------------------------------------------------------------------------
+                                   HF Summary                                   
+--------------------------------------------------------------------------------
+  Energy:                                                 -435.4996018008 a.u.
+  Dip. moment [a.u.]:                  [ -56.578898,  185.248672,    0.771222]
+  Total dipole [Debye]:                                             492.330788
+  <r^2> [a.u.]:                        [ 168.481806,  920.843007,   92.321553]
+  Total <r^2> [a.u.]:                                              1181.646367
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+                                 MP(2) Summary                                  
+--------------------------------------------------------------------------------
+  Energy contribution:                                      -0.8091782082 a.u.
+  Total energy:                                           -436.3087800090 a.u.
+  Dip. moment [a.u.]:                  [ -56.512869,  185.486385,    0.700344]
+  Total dipole [Debye]:                                             492.859047
+  <r^2> [a.u.]:                        [ 168.170025,  922.747262,   92.185781]
+  Total <r^2> [a.u.]:                                              1183.103068
+--------------------------------------------------------------------------------
+  Starting Davidson ... 
+--------------------------------------------------------------------------------
+   It NVec Conv  Avg. Norm  Max. Norm  Conv. states           Remark
+--------------------------------------------------------------------------------
+        20    0  2.083e-01  1.054e+00 11.0315 n n n n n n n n Guess.
+    1   40    0  3.580e-02  3.500e-01 10.8708 n n n n n n n n 
+    2   60    0  7.509e-03  6.715e-02 10.8692 n n n n n n n n 
+    3   80    0  2.571e-03  2.541e-02 10.8692 n n n n n n n n 
+    4  100    0  1.789e-03  1.863e-02 10.8692 n n n n n n n n 
+    5   40    0  1.190e-03  1.234e-02 10.8692 n n n n n n n n Subspace collapsed.
+    6   60    0  1.157e-03  1.414e-02 10.8692 n n n n n n n n 
+    7   80    0  1.756e-03  2.625e-02 10.8692 n n n n n n n n 
+    8  100    2  5.048e-03  9.867e-02 10.8692 y y n n n n n n 
+    9   40    5  2.027e-03  3.749e-02 10.8692 y y y n n y y n Subspace collapsed.
+   10   60    8  1.361e-03  2.473e-02 10.8692 y y y y y y y y 
+   11   80    9  1.070e-03  1.719e-02 10.8692 y y y y y y y y 
+   12  100   14  1.230e-03  1.922e-02 10.8692 y y y y y y y y 
+   13   40   14  9.473e-04  1.359e-02 10.8692 y y y y y y y y Subspace collapsed.
+   14   60   14  1.097e-03  1.968e-02 10.8692 y y y y y y y y 
+   15   80   14  1.503e-03  2.559e-02 10.8692 y y y y y y y y 
+   16  100   14  5.536e-03  1.044e-01 10.8692 y y y y y y y y 
+   17   38   15  3.004e-03  5.735e-02 10.8692 y y y y y y y y Subspace collapsed.
+   18   56   15  1.849e-03  3.453e-02 10.8692 y y y y y y y y 
+   19   58   15  1.844e-03  3.453e-02 10.8692 y y y y y y y y 
+   20   60   15  1.843e-03  3.455e-02 10.8692 y y y y y y y y 
+   21   75   15  1.325e-03  2.499e-02 10.8692 y y y y y y y y 
+   22   89   16  1.018e-03  1.689e-02 10.8692 y y y y y y y y 
+   23  100   16  2.162e-03  3.825e-02 10.8692 y y y y y y y y 
+   24   32   16  9.427e-04  1.592e-02 10.8692 y y y y y y y y Subspace collapsed.
+   25   44   16  9.013e-04  1.566e-02 10.8692 y y y y y y y y 
+   26   56   16  8.759e-04  1.619e-02 10.8692 y y y y y y y y 
+   27   59   16  8.820e-04  1.634e-02 10.8692 y y y y y y y y 
+   28   60   16  8.684e-04  1.604e-02 10.8692 y y y y y y y y 
+   29   60   16  8.684e-04  1.604e-02 10.8692 y y y y y y y y 
+   30   80   16  1.120e-03  2.034e-02 10.8692 y y y y y y y y 
+   31   86   16  1.111e-03  2.024e-02 10.8692 y y y y y y y y 
+   32   92   16  9.169e-04  1.487e-02 10.8692 y y y y y y y y 
+   33   98   16  5.934e-04  9.074e-03 10.8692 y y y y y y y y 
+   34  100   16  5.896e-04  9.085e-03 10.8692 y y y y y y y y 
+   35   26   16  2.785e-04  4.326e-03 10.8692 y y y y y y y y Subspace collapsed.
+   36   32   16  1.778e-04  2.739e-03 10.8692 y y y y y y y y 
+   37   38   16  1.090e-04  1.752e-03 10.8692 y y y y y y y y 
+   38   44   16  8.242e-05  1.308e-03 10.8692 y y y y y y y y 
+   39   50   16  8.421e-05  1.468e-03 10.8692 y y y y y y y y 
+   40   56   17  9.185e-05  1.673e-03 10.8692 y y y y y y y y 
+   41   62   17  1.072e-04  2.042e-03 10.8692 y y y y y y y y 
+   42   68   18  9.820e-05  1.914e-03 10.8692 y y y y y y y y 
+   43   74   18  6.952e-05  1.244e-03 10.8692 y y y y y y y y 
+   44   75   18  6.952e-05  1.243e-03 10.8692 y y y y y y y y 
+   45   76   18  7.023e-05  1.257e-03 10.8692 y y y y y y y y 
+   46   77   18  6.999e-05  1.251e-03 10.8692 y y y y y y y y 
+   47   78   18  7.003e-05  1.252e-03 10.8692 y y y y y y y y 
+   48   83   18  3.581e-05  6.120e-04 10.8692 y y y y y y y y 
+   49   88   18  1.932e-05  2.989e-04 10.8692 y y y y y y y y 
+   50   93   18  1.656e-05  2.707e-04 10.8692 y y y y y y y y 
+   51   93   18  1.656e-05  2.707e-04 10.8692 y y y y y y y y 
+   52   93   18  1.656e-05  2.707e-04 10.8692 y y y y y y y y 
+   53  100   18  1.668e-05  2.733e-04 10.8692 y y y y y y y y 
+   54   24   18  1.056e-05  1.815e-04 10.8692 y y y y y y y y Subspace collapsed.
+   55   28   18  1.564e-05  2.944e-04 10.8692 y y y y y y y y 
+   56   32   18  1.702e-05  3.253e-04 10.8692 y y y y y y y y 
+   57   32   18  1.702e-05  3.253e-04 10.8692 y y y y y y y y 
+   58   34   18  1.707e-05  3.262e-04 10.8692 y y y y y y y y 
+   59   34   18  1.707e-05  3.262e-04 10.8692 y y y y y y y y 
+--------------------------------------------------------------------------------
+  Davidson Summary: 
+ ------------------------------------------------------------
+  State  0: excitation energy =  10.8692 a.u.   (converged)
+  State  1: excitation energy =  10.9388 a.u.   (converged)
+  State  2: excitation energy =  11.1343 a.u.   (converged)
+  State  3: excitation energy =  11.1731 a.u.   (converged)
+  State  4: excitation energy =  11.2143 a.u.   (converged)
+  State  5: excitation energy =  11.2524 a.u.   (converged)
+  State  6: excitation energy =  11.2616 a.u.   (converged)
+  State  7: excitation energy =  11.3349 a.u.   (converged)
+  State  8: excitation energy =  11.4614 a.u.   (converged)
+  State  9: excitation energy =  11.5153 a.u.   (converged)
+  State 10: excitation energy =  11.5493 a.u.   (converged)
+  State 11: excitation energy =  11.5596 a.u.   (converged)
+  State 12: excitation energy =  11.5621 a.u.   (converged)
+  State 13: excitation energy =  11.5779 a.u.   (converged)
+  State 14: excitation energy =  11.7004 a.u.   (converged)
+  State 15: excitation energy =  11.7170 a.u.   (converged)
+  State 16: excitation energy =  12.1531 a.u.   (converged)
+  State 17: excitation energy =  12.1597 a.u.   (converged)
+  State 18: excitation energy =  12.1916 a.u.   (not converged)
+  State 19: excitation energy =  12.1957 a.u.   (not converged)
+ ------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+                             Excited State Summary
+--------------------------------------------------------------------------------
+
+  Excited state  1 (A)                                             [converged]
+  ----------------------------------------------------------------------------
+  Term symbol:  2 (-) A                                     R^2 =  5.00559e-14
+
+  Total energy:                                           -425.4396152155 a.u.
+  Excitation energy:                                             295.765016 eV
+
+  Osc. strength:                                                      0.000000
+  Trans. dip. moment [a.u.]:           [  -0.000000,   -0.000000,    0.000000]
+  <i|r^2|0> [a.u.]:                    [   0.000000,   -0.000000,   -0.000000]
+
+  V1^2 = 0.9572, V2^2 = 0.0428
+
+  Important amplitudes:
+     core i     occ j      vir a      vir b          v   
+    ------------------------------------------------------
+     5 (A) B              22 (A) B                -0.6348
+     5 (A) A              22 (A) A                 0.6348
+    ------------------------------------------------------
+  ----------------------------------------------------------------------------
+
+
+  Excited state  2 (A)                                             [converged]
+  ----------------------------------------------------------------------------
+  Term symbol:  3 (-) A                                     R^2 =  1.11897e-13
+
+  Total energy:                                           -425.3699562062 a.u.
+  Excitation energy:                                             297.660534 eV
+
+  Osc. strength:                                                      0.108325
+  Trans. dip. moment [a.u.]:           [   0.043400,    0.106417,   -0.040571]
+  <i|r^2|0> [a.u.]:                    [  -0.101713,    1.088201,    0.013981]
+
+  V1^2 = 0.9515, V2^2 = 0.0485
+
+  Important amplitudes:
+     core i     occ j      vir a      vir b          v   
+    ------------------------------------------------------
+     5 (A) A              22 (A) A                 0.6523
+     5 (A) B              22 (A) B                 0.6523
+    ------------------------------------------------------
+  ----------------------------------------------------------------------------
+
+
+  Excited state  3 (A)                                             [converged]
+  ----------------------------------------------------------------------------
+  Term symbol:  4 (-) A                                     R^2 =  1.39618e-13
+
+  Total energy:                                           -425.1744474880 a.u.
+  Excitation energy:                                             302.980597 eV
+
+  Osc. strength:                                                      0.000000
+  Trans. dip. moment [a.u.]:           [  -0.000000,    0.000000,   -0.000000]
+  <i|r^2|0> [a.u.]:                    [   0.000000,    0.000000,   -0.000000]
+
+  V1^2 = 0.9365, V2^2 = 0.0635
+
+  Important amplitudes:
+     core i     occ j      vir a      vir b          v   
+    ------------------------------------------------------
+     5 (A) B              23 (A) B                -0.5596
+     5 (A) A              23 (A) A                 0.5596
+    ------------------------------------------------------
+  ----------------------------------------------------------------------------
+
+
+  Excited state  4 (A)                                             [converged]
+  ----------------------------------------------------------------------------
+  Term symbol:  5 (-) A                                     R^2 =  2.44557e-13
+
+  Total energy:                                           -425.1356942512 a.u.
+  Excitation energy:                                             304.035126 eV
+
+  Osc. strength:                                                      0.000000
+  Trans. dip. moment [a.u.]:           [  -0.000000,    0.000000,   -0.000000]
+  <i|r^2|0> [a.u.]:                    [   0.000000,    0.000000,    0.000000]
+
+  V1^2 = 0.9517, V2^2 = 0.0483
+
+  Important amplitudes:
+     core i     occ j      vir a      vir b          v   
+    ------------------------------------------------------
+     5 (A) B              24 (A) B                -0.4805
+     5 (A) A              24 (A) A                 0.4805
+    ------------------------------------------------------
+  ----------------------------------------------------------------------------
+
+
+  Excited state  5 (A)                                             [converged]
+  ----------------------------------------------------------------------------
+  Term symbol:  6 (-) A                                     R^2 =  1.46551e-13
+
+  Total energy:                                           -425.0944370636 a.u.
+  Excitation energy:                                             305.157791 eV
+
+  Osc. strength:                                                      0.024677
+  Trans. dip. moment [a.u.]:           [   0.031927,   -0.047755,    0.000911]
+  <i|r^2|0> [a.u.]:                    [  -0.057578,   -0.460736,    0.019574]
+
+  V1^2 = 0.9225, V2^2 = 0.0775
+
+  Important amplitudes:
+     core i     occ j      vir a      vir b          v   
+    ------------------------------------------------------
+     5 (A) A              23 (A) A                 0.6140
+     5 (A) B              23 (A) B                 0.6140
+    ------------------------------------------------------
+  ----------------------------------------------------------------------------
+
+
+  Excited state  6 (A)                                             [converged]
+  ----------------------------------------------------------------------------
+  Term symbol:  7 (-) A                                     R^2 =  1.06653e-13
+
+  Total energy:                                           -425.0563749523 a.u.
+  Excitation energy:                                             306.193514 eV
+
+  Osc. strength:                                                      0.115611
+  Trans. dip. moment [a.u.]:           [   0.107395,   -0.008812,    0.061645]
+  <i|r^2|0> [a.u.]:                    [  -0.262291,   -0.096474,   -0.019076]
+
+  V1^2 = 0.9436, V2^2 = 0.0564
+
+  Important amplitudes:
+     core i     occ j      vir a      vir b          v   
+    ------------------------------------------------------
+     5 (A) A              24 (A) A                 0.5358
+     5 (A) B              24 (A) B                 0.5358
+    ------------------------------------------------------
+  ----------------------------------------------------------------------------
+
+
+  Excited state  7 (A)                                             [converged]
+  ----------------------------------------------------------------------------
+  Term symbol:  8 (-) A                                     R^2 =  1.99801e-13
+
+  Total energy:                                           -425.0471735329 a.u.
+  Excitation energy:                                             306.443897 eV
+
+  Osc. strength:                                                      0.000000
+  Trans. dip. moment [a.u.]:           [  -0.000000,    0.000000,    0.000000]
+  <i|r^2|0> [a.u.]:                    [   0.000000,    0.000000,   -0.000000]
+
+  V1^2 = 0.9481, V2^2 = 0.0519
+
+  Important amplitudes:
+     core i     occ j      vir a      vir b          v   
+    ------------------------------------------------------
+     5 (A) B              28 (A) B                 0.4727
+     5 (A) A              28 (A) A                -0.4727
+    ------------------------------------------------------
+  ----------------------------------------------------------------------------
+
+
+  Excited state  8 (A)                                             [converged]
+  ----------------------------------------------------------------------------
+  Term symbol:  9 (-) A                                     R^2 =  2.94307e-13
+
+  Total energy:                                           -424.9738769481 a.u.
+  Excitation energy:                                             308.438399 eV
+
+  Osc. strength:                                                      0.105129
+  Trans. dip. moment [a.u.]:           [   0.043991,   -0.041054,   -0.101447]
+  <i|r^2|0> [a.u.]:                    [  -0.106781,   -0.418844,    0.034664]
+
+  V1^2 = 0.9377, V2^2 = 0.0623
+
+  Important amplitudes:
+     core i     occ j      vir a      vir b          v   
+    ------------------------------------------------------
+     5 (A) A              25 (A) A                -0.5094
+     5 (A) B              25 (A) B                -0.5094
+    ------------------------------------------------------
+  ----------------------------------------------------------------------------
+
+
+  Excited state  9 (A)                                             [converged]
+  ----------------------------------------------------------------------------
+  Term symbol:  10 (-) A                                    R^2 =  2.71796e-13
+
+  Total energy:                                           -424.8474226711 a.u.
+  Excitation energy:                                             311.879395 eV
+
+  Osc. strength:                                                      0.000000
+  Trans. dip. moment [a.u.]:           [   0.000000,    0.000000,   -0.000000]
+  <i|r^2|0> [a.u.]:                    [  -0.000000,    0.000000,    0.000000]
+
+  V1^2 = 0.9132, V2^2 = 0.0868
+
+  Important amplitudes:
+     core i     occ j      vir a      vir b          v   
+    ------------------------------------------------------
+     5 (A) B              26 (A) B                -0.5591
+     5 (A) A              26 (A) A                 0.5591
+    ------------------------------------------------------
+  ----------------------------------------------------------------------------
+
+
+  Excited state 10 (A)                                             [converged]
+  ----------------------------------------------------------------------------
+  Term symbol:  11 (-) A                                    R^2 =  3.85602e-13
+
+  Total energy:                                           -424.7935000171 a.u.
+  Excitation energy:                                             313.346705 eV
+
+  Osc. strength:                                                      0.021882
+  Trans. dip. moment [a.u.]:           [   0.009842,    0.051670,   -0.009153]
+  <i|r^2|0> [a.u.]:                    [  -0.001803,    0.547940,    0.022455]
+
+  V1^2 = 0.9143, V2^2 = 0.0857
+
+  Important amplitudes:
+     core i     occ j      vir a      vir b          v   
+    ------------------------------------------------------
+     5 (A) A              26 (A) A                -0.6089
+     5 (A) B              26 (A) B                -0.6089
+    ------------------------------------------------------
+  ----------------------------------------------------------------------------
+
+
+  Excited state 11 (A)                                             [converged]
+  ----------------------------------------------------------------------------
+  Term symbol:  12 (-) A                                    R^2 =  3.65397e-13
+
+  Total energy:                                           -424.7594601829 a.u.
+  Excitation energy:                                             314.272976 eV
+
+  Osc. strength:                                                      0.000000
+  Trans. dip. moment [a.u.]:           [  -0.000000,    0.000000,   -0.000000]
+  <i|r^2|0> [a.u.]:                    [   0.000000,    0.000000,    0.000000]
+
+  V1^2 = 0.8869, V2^2 = 0.1131
+
+  Important amplitudes:
+     core i     occ j      vir a      vir b          v   
+    ------------------------------------------------------
+     5 (A) B              27 (A) B                -0.4855
+     5 (A) A              27 (A) A                 0.4855
+    ------------------------------------------------------
+  ----------------------------------------------------------------------------
+
+
+  Excited state 12 (A)                                             [converged]
+  ----------------------------------------------------------------------------
+  Term symbol:  13 (-) A                                    R^2 =  2.53637e-13
+
+  Total energy:                                           -424.7492239486 a.u.
+  Excitation energy:                                             314.551518 eV
+
+  Osc. strength:                                                      0.000000
+  Trans. dip. moment [a.u.]:           [   0.000000,   -0.000000,   -0.000000]
+  <i|r^2|0> [a.u.]:                    [  -0.000000,   -0.000000,    0.000000]
+
+  V1^2 = 0.8876, V2^2 = 0.1124
+
+  Important amplitudes:
+     core i     occ j      vir a      vir b          v   
+    ------------------------------------------------------
+     5 (A) B              25 (A) B                 0.4776
+     5 (A) A              25 (A) A                -0.4776
+    ------------------------------------------------------
+  ----------------------------------------------------------------------------
+
+
+  Excited state 13 (A)                                             [converged]
+  ----------------------------------------------------------------------------
+  Term symbol:  14 (-) A                                    R^2 =  3.18229e-13
+
+  Total energy:                                           -424.7466841385 a.u.
+  Excitation energy:                                             314.620629 eV
+
+  Osc. strength:                                                      0.025246
+  Trans. dip. moment [a.u.]:           [   0.051250,   -0.007039,    0.024478]
+  <i|r^2|0> [a.u.]:                    [  -0.122919,   -0.073232,   -0.007606]
+
+  V1^2 = 0.8899, V2^2 = 0.1101
+
+  Important amplitudes:
+     core i     occ j      vir a      vir b          v   
+    ------------------------------------------------------
+     5 (A) A              27 (A) A                 0.5340
+     5 (A) B              27 (A) B                 0.5340
+    ------------------------------------------------------
+  ----------------------------------------------------------------------------
+
+
+  Excited state 14 (A)                                             [converged]
+  ----------------------------------------------------------------------------
+  Term symbol:  15 (-) A                                    R^2 =  4.21542e-13
+
+  Total energy:                                           -424.7308871571 a.u.
+  Excitation energy:                                             315.050487 eV
+
+  Osc. strength:                                                      0.037170
+  Trans. dip. moment [a.u.]:           [  -0.025479,    0.028858,    0.057737]
+  <i|r^2|0> [a.u.]:                    [   0.064045,    0.297690,   -0.017150]
+
+  V1^2 = 0.8941, V2^2 = 0.1059
+
+  Important amplitudes:
+     core i     occ j      vir a      vir b          v   
+    ------------------------------------------------------
+     5 (A) A              28 (A) A                 0.4886
+     5 (A) B              28 (A) B                 0.4886
+    ------------------------------------------------------
+  ----------------------------------------------------------------------------
+
+
+  Excited state 15 (A)                                             [converged]
+  ----------------------------------------------------------------------------
+  Term symbol:  16 (-) A                                    R^2 =  1.33062e-12
+
+  Total energy:                                           -424.6083776093 a.u.
+  Excitation energy:                                             318.384141 eV
+
+  Osc. strength:                                                      0.000000
+  Trans. dip. moment [a.u.]:           [   0.000000,    0.000000,   -0.000000]
+  <i|r^2|0> [a.u.]:                    [  -0.000000,    0.000000,   -0.000000]
+
+  V1^2 = 0.8822, V2^2 = 0.1178
+
+  Important amplitudes:
+     core i     occ j      vir a      vir b          v   
+    ------------------------------------------------------
+     5 (A) B              29 (A) B                 0.6204
+     5 (A) A              29 (A) A                -0.6204
+    ------------------------------------------------------
+  ----------------------------------------------------------------------------
+
+
+  Excited state 16 (A)                                             [converged]
+  ----------------------------------------------------------------------------
+  Term symbol:  17 (-) A                                    R^2 =  3.53886e-13
+
+  Total energy:                                           -424.5917655245 a.u.
+  Excitation energy:                                             318.836179 eV
+
+  Osc. strength:                                                      0.012230
+  Trans. dip. moment [a.u.]:           [  -0.011103,   -0.036167,    0.011594]
+  <i|r^2|0> [a.u.]:                    [   0.036091,   -0.356446,    0.005846]
+
+  V1^2 = 0.8839, V2^2 = 0.1161
+
+  Important amplitudes:
+     core i     occ j      vir a      vir b          v   
+    ------------------------------------------------------
+     5 (A) A              29 (A) A                -0.6353
+     5 (A) B              29 (A) B                -0.6353
+    ------------------------------------------------------
+  ----------------------------------------------------------------------------
+
+
+  Excited state 17 (A)                                             [converged]
+  ----------------------------------------------------------------------------
+  Term symbol:  18 (-) A                                    R^2 =  6.33818e-09
+
+  Total energy:                                           -424.1556317420 a.u.
+  Excitation energy:                                             330.703983 eV
+
+  Osc. strength:                                                      0.000000
+  Trans. dip. moment [a.u.]:           [  -0.000000,   -0.000000,   -0.000000]
+  <i|r^2|0> [a.u.]:                    [  -0.000000,   -0.000000,    0.000000]
+
+  V1^2 = 0.8707, V2^2 = 0.1293
+
+  Important amplitudes:
+     core i     occ j      vir a      vir b          v   
+    ------------------------------------------------------
+     5 (A) B              30 (A) B                 0.6313
+     5 (A) A              30 (A) A                -0.6313
+    ------------------------------------------------------
+  ----------------------------------------------------------------------------
+
+
+  Excited state 18 (A)                                             [converged]
+  ----------------------------------------------------------------------------
+  Term symbol:  19 (-) A                                    R^2 =  3.12736e-08
+
+  Total energy:                                           -424.1491091102 a.u.
+  Excitation energy:                                             330.881473 eV
+
+  Osc. strength:                                                      0.007639
+  Trans. dip. moment [a.u.]:           [   0.014619,   -0.011770,   -0.024292]
+  <i|r^2|0> [a.u.]:                    [  -0.036694,   -0.122910,   -0.000579]
+
+  V1^2 = 0.8695, V2^2 = 0.1305
+
+  Important amplitudes:
+     core i     occ j      vir a      vir b          v   
+    ------------------------------------------------------
+     5 (A) A              30 (A) A                -0.6375
+     5 (A) B              30 (A) B                -0.6375
+    ------------------------------------------------------
+  ----------------------------------------------------------------------------
+
+
+  Excited state 19 (A)                                         [not converged]
+  ----------------------------------------------------------------------------
+  Term symbol:  20 (-) A                                    R^2 =  1.00499e-04
+
+  Total energy:                                           -424.1171410531 a.u.
+  Excitation energy:                                             331.751368 eV
+
+
+  V1^2 = 0.8634, V2^2 = 0.1366
+
+  Important amplitudes:
+     core i     occ j      vir a      vir b          v   
+    ------------------------------------------------------
+     5 (A) B              31 (A) B                -0.6120
+     5 (A) A              31 (A) A                 0.6120
+    ------------------------------------------------------
+  ----------------------------------------------------------------------------
+
+
+  Excited state 20 (A)                                         [not converged]
+  ----------------------------------------------------------------------------
+  Term symbol:  21 (-) A                                    R^2 =  3.26248e-04
+
+  Total energy:                                           -424.1130975823 a.u.
+  Excitation energy:                                             331.861396 eV
+
+
+  V1^2 = 0.8628, V2^2 = 0.1372
+
+  Important amplitudes:
+     core i     occ j      vir a      vir b          v   
+    ------------------------------------------------------
+     5 (A) B              31 (A) B                 0.6168
+     5 (A) A              31 (A) A                 0.6166
+    ------------------------------------------------------
+  ----------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+  Time of ADC calculation:  CPU 3169.77 s  wall 1960.01 s
+================================================================================
+ 
+ --------------------------------------------------------------
+ 
+                    Orbital Energies (a.u.)
+ --------------------------------------------------------------
+ 
+ Alpha MOs
+ -- Occupied --
+-26.479 -26.446 -26.430 -26.143 -11.661  -1.896  -1.792  -1.746
+ -1.404  -1.056  -0.967  -0.958  -0.910  -0.799  -0.793  -0.787
+ -0.763  -0.738  -0.495  -0.494  -0.484
+ -- Virtual --
+  0.132   0.345   0.455   0.487   0.620   0.657   0.734   0.777
+  1.223   1.258   1.272   1.316   1.324   1.440   1.506   1.517
+  1.555   1.557   1.569   1.578   1.724   1.737   1.752   1.909
+  1.923   1.996   2.009   2.022   2.052   2.143   2.175   2.183
+  2.199   2.288   2.322   2.325   2.342   2.430   2.459   2.480
+  2.711   2.917   3.001   3.094   3.208   3.305   3.495   3.536
+  3.567   4.282   4.677   5.070   5.370   6.654
+ 
+ Beta MOs
+ -- Occupied --
+-26.479 -26.446 -26.430 -26.143 -11.661  -1.896  -1.792  -1.746
+ -1.404  -1.056  -0.967  -0.958  -0.910  -0.799  -0.793  -0.787
+ -0.763  -0.738  -0.495  -0.494  -0.484
+ -- Virtual --
+  0.132   0.345   0.455   0.487   0.620   0.657   0.734   0.777
+  1.223   1.258   1.272   1.316   1.324   1.440   1.506   1.517
+  1.555   1.557   1.569   1.578   1.724   1.737   1.752   1.909
+  1.923   1.996   2.009   2.022   2.052   2.143   2.175   2.183
+  2.199   2.288   2.322   2.325   2.342   2.430   2.459   2.480
+  2.711   2.917   3.001   3.094   3.208   3.305   3.495   3.536
+  3.567   4.282   4.677   5.070   5.370   6.654
+ --------------------------------------------------------------
+ 
+          Ground-State Mulliken Net Atomic Charges
+
+     Atom                 Charge (a.u.)    Spin (a.u.)
+  --------------------------------------------------------
+      1 C                     1.227607       0.000000
+      2 F                    -0.243601       0.000000
+      3 F                    -0.118016       0.000000
+      4 F                    -0.654802       0.000000
+      5 F                    -0.211187       0.000000
+  --------------------------------------------------------
+  Sum of atomic charges =     0.000000
+  Sum of spin   charges =     0.000000
+
+ -----------------------------------------------------------------
+                    Cartesian Multipole Moments
+ -----------------------------------------------------------------
+    Charge (ESU x 10^10)
+                 0.0000
+    Dipole Moment (Debye)
+         X       1.2170      Y       4.7592      Z      -1.3171
+       Tot       5.0858
+    Quadrupole Moments (Debye-Ang)
+        XX     -26.1193     XY      -1.8644     YY      -4.3363
+        XZ       1.3227     YZ      -1.6161     ZZ     -24.0992
+    Octopole Moments (Debye-Ang^2)
+       XXX      53.2853    XXY     -56.1657    XYY       5.9079
+       YYY    -102.3224    XXZ      -1.5690    XYZ       1.0595
+       YYZ      -2.8616    XZZ      17.4059    YZZ     -55.6883
+       ZZZ      -0.2467
+    Hexadecapole Moments (Debye-Ang^3)
+      XXXX    -151.1755   XXXY     115.7676   XXYY    -165.2807
+      XYYY      78.9220   YYYY    -667.4335   XXXZ       2.7359
+      XXYZ       0.0999   XYYZ       0.2387   YYYZ      -5.1761
+      XXZZ     -37.9493   XYZZ      39.0560   YYZZ    -157.3827
+      XZZZ       0.9399   YZZZ       4.1914   ZZZZ     -75.9737
+ -----------------------------------------------------------------
+Archival summary:
+1\1\tp-linux1\SP\HF\6-31G*\41\thomas\ThuMar1621:33:012017ThuMar1621:33:012017\0\\#,HF,6-31G*,\\0,1\C\F,1,1.17533\F,1,1.24679,2,122.592\F,1,1.27701,2,120.577,3,-172.129,0\F,1,1.80909,2,94.0634,3,95.5934,0\\HF=-435.499602\\@
+
+ Total job time:  1963.92s(wall), 3180.80s(cpu) 
+ Thu Mar 16 21:33:01 2017
+
+        *************************************************************
+        *                                                           *
+        *  Thank you very much for using Q-Chem.  Have a nice day.  *
+        *                                                           *
+        *************************************************************
+
+
+0 sent ACK to 0 
+now end server 0 ... 
+cleanup process ... done

@@ -1,0 +1,15 @@
+#!/usr/bin/expect
+
+spawn ddtraj
+
+
+# prints trajectory to ddtraj.pl
+expect "Enter"
+set traj [lindex $argv 0]
+send "$traj\r"
+
+# may not need
+expect "Enter"
+send "0"
+send "\r"
+

@@ -1,0 +1,11 @@
+%mem=5000MB
+%Nprocshared=6
+%chk=$chk0$
+#P UHF/6-31g* IOP(7/33=1) IOP(7/8=11) 
+$Freq:Freq$
+
+Distorted Ethanol
+
+1 2
+<geometry>
+
