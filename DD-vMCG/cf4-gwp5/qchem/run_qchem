@@ -1,6 +1,0 @@
-#!/bin/bash
-
-for i in ddtraj*.inp
-do
-	qchem -nt 8 $i ${i%.*}.out
-done
