@@ -233,7 +233,7 @@ def read_src(SRCoutput):
    return XAS
 
 
-def generate_spectrum(XAS,fwhm,weight):
+def generate_spectrum(XAS,fwhm,weight,Emin,Emax):
    ##################################################
    # generate_spectrum: Generates spectrum with Lorentzian broadened lines (with FWHM=0.5 eV) 
    # Inputs:    XAS (float array), XAS[0] = energies (eV), XAS[1] = oscillator strengths
@@ -242,8 +242,8 @@ def generate_spectrum(XAS,fwhm,weight):
    # 		spect (float list), spectrum (arb. units) with Lorentzian broadened lines 
    ##################################################
    E=XAS[0]			# Line energies
-   Emin=int(E[0]-1.5)		# Min energy
-   Emax=int(E[-1]+1.5)		# Max energy
+   #Emin=int(E[0]-1.5)		# Min energy
+   #Emax=int(E[-1]+1.5)		# Max energy
    A=XAS[1]			# Line intensities
    x=[]
    res=300			# Number of spaces along x-axis (arbitrary)

@@ -7,7 +7,7 @@ name = example   ngwp = 1
 direct = cartesian 
 title =  UHF/6-31g*. 
 propagation
-tfinal = 200.0   tout = 1.0   tpsi= 1.0                       
+tfinal = 300.0   tout = 1.0   tpsi= 1.0                       
 psi  gridpop   update  steps auto
 end-run-section                                                                 
 

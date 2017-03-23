@@ -20,11 +20,13 @@ $rem
 mem_total 3000
 mem_static 1500
 sym_ignore true
-method cvs-adc(2)-x
+method cvs-adc(2)
 basis 6-31G*
 ee_singlets 20
 cc_rest_occ 5                  !only excitations from the lowest N orbitals
 unrestricted  true
 max_scf_cycles 200
-SCF_CONVERGENCE = 6	       
+SCF_ALGORITHM = DIIS_GDM
+SCF_CONVERGENCE = 7	       
+THRESH = 10
 $end

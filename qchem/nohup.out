@@ -184,3 +184,5165 @@ QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
 # env setting
 #
 exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem16870.0 -- /scratch/qchem/qchem16870.0
+rm -rf /scratch/qchem/qchem16870.0
+rm -rf /scratch/qchem/qchem16870
+remove work dirs /scratch/qchem/qchem16994.0 -- /scratch/qchem/qchem16994.0
+rm -rf /scratch/qchem/qchem16994.0
+rm -rf /scratch/qchem/qchem16994
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t0.inp
+output file: ddtraj1t0.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem20689
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem20689
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem20689
+workdir0:    /scratch/qchem/qchem20689
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+You are running Q-Chem version: 4.3
+Error: input file ddtraj1t51.inp does not exist !
+/mnt/software/qchem/bin/qchem [-save] [-par|-seq] [-nt nthreads] [-np nprocs] input output scratchDir
+You are running Q-Chem version: 4.3
+Error: input file ddtraj1t52.inp does not exist !
+/mnt/software/qchem/bin/qchem [-save] [-par|-seq] [-nt nthreads] [-np nprocs] input output scratchDir
+You are running Q-Chem version: 4.3
+Error: input file ddtraj1t53.inp does not exist !
+/mnt/software/qchem/bin/qchem [-save] [-par|-seq] [-nt nthreads] [-np nprocs] input output scratchDir
+You are running Q-Chem version: 4.3
+Error: input file ddtraj1t54.inp does not exist !
+/mnt/software/qchem/bin/qchem [-save] [-par|-seq] [-nt nthreads] [-np nprocs] input output scratchDir
+You are running Q-Chem version: 4.3
+Error: input file ddtraj1t55.inp does not exist !
+/mnt/software/qchem/bin/qchem [-save] [-par|-seq] [-nt nthreads] [-np nprocs] input output scratchDir
+You are running Q-Chem version: 4.3
+Error: input file ddtraj1t56.inp does not exist !
+/mnt/software/qchem/bin/qchem [-save] [-par|-seq] [-nt nthreads] [-np nprocs] input output scratchDir
+You are running Q-Chem version: 4.3
+Error: input file ddtraj1t57.inp does not exist !
+/mnt/software/qchem/bin/qchem [-save] [-par|-seq] [-nt nthreads] [-np nprocs] input output scratchDir
+You are running Q-Chem version: 4.3
+Error: input file ddtraj1t58.inp does not exist !
+/mnt/software/qchem/bin/qchem [-save] [-par|-seq] [-nt nthreads] [-np nprocs] input output scratchDir
+You are running Q-Chem version: 4.3
+Error: input file ddtraj1t59.inp does not exist !
+/mnt/software/qchem/bin/qchem [-save] [-par|-seq] [-nt nthreads] [-np nprocs] input output scratchDir
+You are running Q-Chem version: 4.3
+Error: input file ddtraj1t60.inp does not exist !
+/mnt/software/qchem/bin/qchem [-save] [-par|-seq] [-nt nthreads] [-np nprocs] input output scratchDir
+You are running Q-Chem version: 4.3
+Error: input file ddtraj1t61.inp does not exist !
+/mnt/software/qchem/bin/qchem [-save] [-par|-seq] [-nt nthreads] [-np nprocs] input output scratchDir
+You are running Q-Chem version: 4.3
+Error: input file ddtraj1t62.inp does not exist !
+/mnt/software/qchem/bin/qchem [-save] [-par|-seq] [-nt nthreads] [-np nprocs] input output scratchDir
+You are running Q-Chem version: 4.3
+Error: input file ddtraj1t63.inp does not exist !
+/mnt/software/qchem/bin/qchem [-save] [-par|-seq] [-nt nthreads] [-np nprocs] input output scratchDir
+You are running Q-Chem version: 4.3
+Error: input file ddtraj1t64.inp does not exist !
+/mnt/software/qchem/bin/qchem [-save] [-par|-seq] [-nt nthreads] [-np nprocs] input output scratchDir
+You are running Q-Chem version: 4.3
+Error: input file ddtraj1t65.inp does not exist !
+/mnt/software/qchem/bin/qchem [-save] [-par|-seq] [-nt nthreads] [-np nprocs] input output scratchDir
+You are running Q-Chem version: 4.3
+Error: input file ddtraj1t66.inp does not exist !
+/mnt/software/qchem/bin/qchem [-save] [-par|-seq] [-nt nthreads] [-np nprocs] input output scratchDir
+You are running Q-Chem version: 4.3
+Error: input file ddtraj1t67.inp does not exist !
+/mnt/software/qchem/bin/qchem [-save] [-par|-seq] [-nt nthreads] [-np nprocs] input output scratchDir
+You are running Q-Chem version: 4.3
+Error: input file ddtraj1t68.inp does not exist !
+/mnt/software/qchem/bin/qchem [-save] [-par|-seq] [-nt nthreads] [-np nprocs] input output scratchDir
+You are running Q-Chem version: 4.3
+Error: input file ddtraj1t69.inp does not exist !
+/mnt/software/qchem/bin/qchem [-save] [-par|-seq] [-nt nthreads] [-np nprocs] input output scratchDir
+You are running Q-Chem version: 4.3
+Error: input file ddtraj1t70.inp does not exist !
+/mnt/software/qchem/bin/qchem [-save] [-par|-seq] [-nt nthreads] [-np nprocs] input output scratchDir
+You are running Q-Chem version: 4.3
+Error: input file ddtraj1t71.inp does not exist !
+/mnt/software/qchem/bin/qchem [-save] [-par|-seq] [-nt nthreads] [-np nprocs] input output scratchDir
+You are running Q-Chem version: 4.3
+Error: input file ddtraj1t72.inp does not exist !
+/mnt/software/qchem/bin/qchem [-save] [-par|-seq] [-nt nthreads] [-np nprocs] input output scratchDir
+You are running Q-Chem version: 4.3
+Error: input file ddtraj1t73.inp does not exist !
+/mnt/software/qchem/bin/qchem [-save] [-par|-seq] [-nt nthreads] [-np nprocs] input output scratchDir
+You are running Q-Chem version: 4.3
+Error: input file ddtraj1t74.inp does not exist !
+/mnt/software/qchem/bin/qchem [-save] [-par|-seq] [-nt nthreads] [-np nprocs] input output scratchDir
+You are running Q-Chem version: 4.3
+Error: input file ddtraj1t75.inp does not exist !
+/mnt/software/qchem/bin/qchem [-save] [-par|-seq] [-nt nthreads] [-np nprocs] input output scratchDir
+You are running Q-Chem version: 4.3
+Error: input file ddtraj1t76.inp does not exist !
+/mnt/software/qchem/bin/qchem [-save] [-par|-seq] [-nt nthreads] [-np nprocs] input output scratchDir
+You are running Q-Chem version: 4.3
+Error: input file ddtraj1t77.inp does not exist !
+/mnt/software/qchem/bin/qchem [-save] [-par|-seq] [-nt nthreads] [-np nprocs] input output scratchDir
+You are running Q-Chem version: 4.3
+Error: input file ddtraj1t78.inp does not exist !
+/mnt/software/qchem/bin/qchem [-save] [-par|-seq] [-nt nthreads] [-np nprocs] input output scratchDir
+You are running Q-Chem version: 4.3
+Error: input file ddtraj1t79.inp does not exist !
+/mnt/software/qchem/bin/qchem [-save] [-par|-seq] [-nt nthreads] [-np nprocs] input output scratchDir
+You are running Q-Chem version: 4.3
+Error: input file ddtraj1t80.inp does not exist !
+/mnt/software/qchem/bin/qchem [-save] [-par|-seq] [-nt nthreads] [-np nprocs] input output scratchDir
+You are running Q-Chem version: 4.3
+Error: input file ddtraj1t81.inp does not exist !
+/mnt/software/qchem/bin/qchem [-save] [-par|-seq] [-nt nthreads] [-np nprocs] input output scratchDir
+You are running Q-Chem version: 4.3
+Error: input file ddtraj1t82.inp does not exist !
+/mnt/software/qchem/bin/qchem [-save] [-par|-seq] [-nt nthreads] [-np nprocs] input output scratchDir
+You are running Q-Chem version: 4.3
+Error: input file ddtraj1t83.inp does not exist !
+/mnt/software/qchem/bin/qchem [-save] [-par|-seq] [-nt nthreads] [-np nprocs] input output scratchDir
+You are running Q-Chem version: 4.3
+Error: input file ddtraj1t84.inp does not exist !
+/mnt/software/qchem/bin/qchem [-save] [-par|-seq] [-nt nthreads] [-np nprocs] input output scratchDir
+You are running Q-Chem version: 4.3
+Error: input file ddtraj1t85.inp does not exist !
+/mnt/software/qchem/bin/qchem [-save] [-par|-seq] [-nt nthreads] [-np nprocs] input output scratchDir
+You are running Q-Chem version: 4.3
+Error: input file ddtraj1t86.inp does not exist !
+/mnt/software/qchem/bin/qchem [-save] [-par|-seq] [-nt nthreads] [-np nprocs] input output scratchDir
+You are running Q-Chem version: 4.3
+Error: input file ddtraj1t87.inp does not exist !
+/mnt/software/qchem/bin/qchem [-save] [-par|-seq] [-nt nthreads] [-np nprocs] input output scratchDir
+You are running Q-Chem version: 4.3
+Error: input file ddtraj1t88.inp does not exist !
+/mnt/software/qchem/bin/qchem [-save] [-par|-seq] [-nt nthreads] [-np nprocs] input output scratchDir
+You are running Q-Chem version: 4.3
+Error: input file ddtraj1t89.inp does not exist !
+/mnt/software/qchem/bin/qchem [-save] [-par|-seq] [-nt nthreads] [-np nprocs] input output scratchDir
+You are running Q-Chem version: 4.3
+Error: input file ddtraj1t90.inp does not exist !
+/mnt/software/qchem/bin/qchem [-save] [-par|-seq] [-nt nthreads] [-np nprocs] input output scratchDir
+You are running Q-Chem version: 4.3
+Error: input file ddtraj1t91.inp does not exist !
+/mnt/software/qchem/bin/qchem [-save] [-par|-seq] [-nt nthreads] [-np nprocs] input output scratchDir
+You are running Q-Chem version: 4.3
+Error: input file ddtraj1t92.inp does not exist !
+/mnt/software/qchem/bin/qchem [-save] [-par|-seq] [-nt nthreads] [-np nprocs] input output scratchDir
+You are running Q-Chem version: 4.3
+Error: input file ddtraj1t93.inp does not exist !
+/mnt/software/qchem/bin/qchem [-save] [-par|-seq] [-nt nthreads] [-np nprocs] input output scratchDir
+You are running Q-Chem version: 4.3
+Error: input file ddtraj1t94.inp does not exist !
+/mnt/software/qchem/bin/qchem [-save] [-par|-seq] [-nt nthreads] [-np nprocs] input output scratchDir
+You are running Q-Chem version: 4.3
+Error: input file ddtraj1t95.inp does not exist !
+/mnt/software/qchem/bin/qchem [-save] [-par|-seq] [-nt nthreads] [-np nprocs] input output scratchDir
+You are running Q-Chem version: 4.3
+Error: input file ddtraj1t96.inp does not exist !
+/mnt/software/qchem/bin/qchem [-save] [-par|-seq] [-nt nthreads] [-np nprocs] input output scratchDir
+You are running Q-Chem version: 4.3
+Error: input file ddtraj1t97.inp does not exist !
+/mnt/software/qchem/bin/qchem [-save] [-par|-seq] [-nt nthreads] [-np nprocs] input output scratchDir
+You are running Q-Chem version: 4.3
+Error: input file ddtraj1t98.inp does not exist !
+/mnt/software/qchem/bin/qchem [-save] [-par|-seq] [-nt nthreads] [-np nprocs] input output scratchDir
+You are running Q-Chem version: 4.3
+Error: input file ddtraj1t99.inp does not exist !
+/mnt/software/qchem/bin/qchem [-save] [-par|-seq] [-nt nthreads] [-np nprocs] input output scratchDir
+You are running Q-Chem version: 4.3
+Error: input file ddtraj1t100.inp does not exist !
+/mnt/software/qchem/bin/qchem [-save] [-par|-seq] [-nt nthreads] [-np nprocs] input output scratchDir
+remove work dirs /scratch/qchem/qchem20689.0 -- /scratch/qchem/qchem20689.0
+rm -rf /scratch/qchem/qchem20689.0
+rm -rf /scratch/qchem/qchem20689
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t1.inp
+output file: ddtraj1t1.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem22336
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem22336
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem22336
+workdir0:    /scratch/qchem/qchem22336
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem22336.0 -- /scratch/qchem/qchem22336.0
+rm -rf /scratch/qchem/qchem22336.0
+rm -rf /scratch/qchem/qchem22336
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t2.inp
+output file: ddtraj1t2.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem23351
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem23351
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem23351
+workdir0:    /scratch/qchem/qchem23351
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem23351.0 -- /scratch/qchem/qchem23351.0
+rm -rf /scratch/qchem/qchem23351.0
+rm -rf /scratch/qchem/qchem23351
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t3.inp
+output file: ddtraj1t3.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem24313
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem24313
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem24313
+workdir0:    /scratch/qchem/qchem24313
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem24313.0 -- /scratch/qchem/qchem24313.0
+rm -rf /scratch/qchem/qchem24313.0
+rm -rf /scratch/qchem/qchem24313
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t4.inp
+output file: ddtraj1t4.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem25255
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem25255
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem25255
+workdir0:    /scratch/qchem/qchem25255
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem25255.0 -- /scratch/qchem/qchem25255.0
+rm -rf /scratch/qchem/qchem25255.0
+rm -rf /scratch/qchem/qchem25255
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t5.inp
+output file: ddtraj1t5.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem25489
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem25489
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem25489
+workdir0:    /scratch/qchem/qchem25489
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem25489.0 -- /scratch/qchem/qchem25489.0
+rm -rf /scratch/qchem/qchem25489.0
+rm -rf /scratch/qchem/qchem25489
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t6.inp
+output file: ddtraj1t6.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem25647
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem25647
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem25647
+workdir0:    /scratch/qchem/qchem25647
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem25647.0 -- /scratch/qchem/qchem25647.0
+rm -rf /scratch/qchem/qchem25647.0
+rm -rf /scratch/qchem/qchem25647
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t7.inp
+output file: ddtraj1t7.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem25802
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem25802
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem25802
+workdir0:    /scratch/qchem/qchem25802
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem25802.0 -- /scratch/qchem/qchem25802.0
+rm -rf /scratch/qchem/qchem25802.0
+rm -rf /scratch/qchem/qchem25802
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t8.inp
+output file: ddtraj1t8.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem25983
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem25983
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem25983
+workdir0:    /scratch/qchem/qchem25983
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem25983.0 -- /scratch/qchem/qchem25983.0
+rm -rf /scratch/qchem/qchem25983.0
+rm -rf /scratch/qchem/qchem25983
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t9.inp
+output file: ddtraj1t9.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem26123
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem26123
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem26123
+workdir0:    /scratch/qchem/qchem26123
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem26123.0 -- /scratch/qchem/qchem26123.0
+rm -rf /scratch/qchem/qchem26123.0
+rm -rf /scratch/qchem/qchem26123
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t10.inp
+output file: ddtraj1t10.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem26259
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem26259
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem26259
+workdir0:    /scratch/qchem/qchem26259
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem26259.0 -- /scratch/qchem/qchem26259.0
+rm -rf /scratch/qchem/qchem26259.0
+rm -rf /scratch/qchem/qchem26259
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t11.inp
+output file: ddtraj1t11.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem26393
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem26393
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem26393
+workdir0:    /scratch/qchem/qchem26393
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem26393.0 -- /scratch/qchem/qchem26393.0
+rm -rf /scratch/qchem/qchem26393.0
+rm -rf /scratch/qchem/qchem26393
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t12.inp
+output file: ddtraj1t12.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem26547
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem26547
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem26547
+workdir0:    /scratch/qchem/qchem26547
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem26547.0 -- /scratch/qchem/qchem26547.0
+rm -rf /scratch/qchem/qchem26547.0
+rm -rf /scratch/qchem/qchem26547
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t13.inp
+output file: ddtraj1t13.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem26705
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem26705
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem26705
+workdir0:    /scratch/qchem/qchem26705
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem26705.0 -- /scratch/qchem/qchem26705.0
+rm -rf /scratch/qchem/qchem26705.0
+rm -rf /scratch/qchem/qchem26705
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t14.inp
+output file: ddtraj1t14.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem26844
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem26844
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem26844
+workdir0:    /scratch/qchem/qchem26844
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem26844.0 -- /scratch/qchem/qchem26844.0
+rm -rf /scratch/qchem/qchem26844.0
+rm -rf /scratch/qchem/qchem26844
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t15.inp
+output file: ddtraj1t15.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem26986
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem26986
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem26986
+workdir0:    /scratch/qchem/qchem26986
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem26986.0 -- /scratch/qchem/qchem26986.0
+rm -rf /scratch/qchem/qchem26986.0
+rm -rf /scratch/qchem/qchem26986
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t16.inp
+output file: ddtraj1t16.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem27121
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem27121
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem27121
+workdir0:    /scratch/qchem/qchem27121
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem27121.0 -- /scratch/qchem/qchem27121.0
+rm -rf /scratch/qchem/qchem27121.0
+rm -rf /scratch/qchem/qchem27121
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t17.inp
+output file: ddtraj1t17.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem27336
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem27336
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem27336
+workdir0:    /scratch/qchem/qchem27336
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem27336.0 -- /scratch/qchem/qchem27336.0
+rm -rf /scratch/qchem/qchem27336.0
+rm -rf /scratch/qchem/qchem27336
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t18.inp
+output file: ddtraj1t18.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem27475
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem27475
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem27475
+workdir0:    /scratch/qchem/qchem27475
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem27475.0 -- /scratch/qchem/qchem27475.0
+rm -rf /scratch/qchem/qchem27475.0
+rm -rf /scratch/qchem/qchem27475
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t19.inp
+output file: ddtraj1t19.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem28352
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem28352
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem28352
+workdir0:    /scratch/qchem/qchem28352
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem28352.0 -- /scratch/qchem/qchem28352.0
+rm -rf /scratch/qchem/qchem28352.0
+rm -rf /scratch/qchem/qchem28352
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t20.inp
+output file: ddtraj1t20.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem29173
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem29173
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem29173
+workdir0:    /scratch/qchem/qchem29173
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem29173.0 -- /scratch/qchem/qchem29173.0
+rm -rf /scratch/qchem/qchem29173.0
+rm -rf /scratch/qchem/qchem29173
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t21.inp
+output file: ddtraj1t21.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem30043
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem30043
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem30043
+workdir0:    /scratch/qchem/qchem30043
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem30043.0 -- /scratch/qchem/qchem30043.0
+rm -rf /scratch/qchem/qchem30043.0
+rm -rf /scratch/qchem/qchem30043
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t22.inp
+output file: ddtraj1t22.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem30919
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem30919
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem30919
+workdir0:    /scratch/qchem/qchem30919
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem30919.0 -- /scratch/qchem/qchem30919.0
+rm -rf /scratch/qchem/qchem30919.0
+rm -rf /scratch/qchem/qchem30919
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t23.inp
+output file: ddtraj1t23.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem31772
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem31772
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem31772
+workdir0:    /scratch/qchem/qchem31772
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem31772.0 -- /scratch/qchem/qchem31772.0
+rm -rf /scratch/qchem/qchem31772.0
+rm -rf /scratch/qchem/qchem31772
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t24.inp
+output file: ddtraj1t24.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem32600
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem32600
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem32600
+workdir0:    /scratch/qchem/qchem32600
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem32600.0 -- /scratch/qchem/qchem32600.0
+rm -rf /scratch/qchem/qchem32600.0
+rm -rf /scratch/qchem/qchem32600
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t25.inp
+output file: ddtraj1t25.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem983
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem983
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem983
+workdir0:    /scratch/qchem/qchem983
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem983.0 -- /scratch/qchem/qchem983.0
+rm -rf /scratch/qchem/qchem983.0
+rm -rf /scratch/qchem/qchem983
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t26.inp
+output file: ddtraj1t26.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem1926
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem1926
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem1926
+workdir0:    /scratch/qchem/qchem1926
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem1926.0 -- /scratch/qchem/qchem1926.0
+rm -rf /scratch/qchem/qchem1926.0
+rm -rf /scratch/qchem/qchem1926
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t27.inp
+output file: ddtraj1t27.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem2779
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem2779
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem2779
+workdir0:    /scratch/qchem/qchem2779
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem2779.0 -- /scratch/qchem/qchem2779.0
+rm -rf /scratch/qchem/qchem2779.0
+rm -rf /scratch/qchem/qchem2779
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t28.inp
+output file: ddtraj1t28.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem3721
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem3721
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem3721
+workdir0:    /scratch/qchem/qchem3721
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem3721.0 -- /scratch/qchem/qchem3721.0
+rm -rf /scratch/qchem/qchem3721.0
+rm -rf /scratch/qchem/qchem3721
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t29.inp
+output file: ddtraj1t29.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem5205
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem5205
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem5205
+workdir0:    /scratch/qchem/qchem5205
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem5205.0 -- /scratch/qchem/qchem5205.0
+rm -rf /scratch/qchem/qchem5205.0
+rm -rf /scratch/qchem/qchem5205
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t30.inp
+output file: ddtraj1t30.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem7002
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem7002
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem7002
+workdir0:    /scratch/qchem/qchem7002
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem7002.0 -- /scratch/qchem/qchem7002.0
+rm -rf /scratch/qchem/qchem7002.0
+rm -rf /scratch/qchem/qchem7002
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t31.inp
+output file: ddtraj1t31.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem8390
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem8390
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem8390
+workdir0:    /scratch/qchem/qchem8390
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem8390.0 -- /scratch/qchem/qchem8390.0
+rm -rf /scratch/qchem/qchem8390.0
+rm -rf /scratch/qchem/qchem8390
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t32.inp
+output file: ddtraj1t32.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem10921
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem10921
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem10921
+workdir0:    /scratch/qchem/qchem10921
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem10921.0 -- /scratch/qchem/qchem10921.0
+rm -rf /scratch/qchem/qchem10921.0
+rm -rf /scratch/qchem/qchem10921
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t33.inp
+output file: ddtraj1t33.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem13771
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem13771
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem13771
+workdir0:    /scratch/qchem/qchem13771
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+Segmentation fault (core dumped)
+remove work dirs /scratch/qchem/qchem13771.0 -- /scratch/qchem/qchem13771.0
+rm -rf /scratch/qchem/qchem13771.0
+rm -rf /scratch/qchem/qchem13771
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t34.inp
+output file: ddtraj1t34.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem14627
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem14627
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem14627
+workdir0:    /scratch/qchem/qchem14627
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem14627.0 -- /scratch/qchem/qchem14627.0
+rm -rf /scratch/qchem/qchem14627.0
+rm -rf /scratch/qchem/qchem14627
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t35.inp
+output file: ddtraj1t35.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem14752
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem14752
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem14752
+workdir0:    /scratch/qchem/qchem14752
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+Aborted (core dumped)
+remove work dirs /scratch/qchem/qchem14752.0 -- /scratch/qchem/qchem14752.0
+rm -rf /scratch/qchem/qchem14752.0
+rm -rf /scratch/qchem/qchem14752
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t36.inp
+output file: ddtraj1t36.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem14881
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem14881
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem14881
+workdir0:    /scratch/qchem/qchem14881
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+Aborted (core dumped)
+remove work dirs /scratch/qchem/qchem14881.0 -- /scratch/qchem/qchem14881.0
+rm -rf /scratch/qchem/qchem14881.0
+rm -rf /scratch/qchem/qchem14881
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t37.inp
+output file: ddtraj1t37.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem15007
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem15007
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem15007
+workdir0:    /scratch/qchem/qchem15007
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+Segmentation fault (core dumped)
+remove work dirs /scratch/qchem/qchem15007.0 -- /scratch/qchem/qchem15007.0
+rm -rf /scratch/qchem/qchem15007.0
+rm -rf /scratch/qchem/qchem15007
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t38.inp
+output file: ddtraj1t38.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem15142
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem15142
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem15142
+workdir0:    /scratch/qchem/qchem15142
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+Aborted (core dumped)
+remove work dirs /scratch/qchem/qchem15142.0 -- /scratch/qchem/qchem15142.0
+rm -rf /scratch/qchem/qchem15142.0
+rm -rf /scratch/qchem/qchem15142
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t39.inp
+output file: ddtraj1t39.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem15267
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem15267
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem15267
+workdir0:    /scratch/qchem/qchem15267
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+Aborted (core dumped)
+remove work dirs /scratch/qchem/qchem15267.0 -- /scratch/qchem/qchem15267.0
+rm -rf /scratch/qchem/qchem15267.0
+rm -rf /scratch/qchem/qchem15267
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t40.inp
+output file: ddtraj1t40.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem15391
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem15391
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem15391
+workdir0:    /scratch/qchem/qchem15391
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+Aborted (core dumped)
+remove work dirs /scratch/qchem/qchem15391.0 -- /scratch/qchem/qchem15391.0
+rm -rf /scratch/qchem/qchem15391.0
+rm -rf /scratch/qchem/qchem15391
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t41.inp
+output file: ddtraj1t41.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem15516
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem15516
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem15516
+workdir0:    /scratch/qchem/qchem15516
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem15516.0 -- /scratch/qchem/qchem15516.0
+rm -rf /scratch/qchem/qchem15516.0
+rm -rf /scratch/qchem/qchem15516
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t42.inp
+output file: ddtraj1t42.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem15642
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem15642
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem15642
+workdir0:    /scratch/qchem/qchem15642
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+Aborted (core dumped)
+remove work dirs /scratch/qchem/qchem15642.0 -- /scratch/qchem/qchem15642.0
+rm -rf /scratch/qchem/qchem15642.0
+rm -rf /scratch/qchem/qchem15642
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t43.inp
+output file: ddtraj1t43.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem15767
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem15767
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem15767
+workdir0:    /scratch/qchem/qchem15767
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem15767.0 -- /scratch/qchem/qchem15767.0
+rm -rf /scratch/qchem/qchem15767.0
+rm -rf /scratch/qchem/qchem15767
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t44.inp
+output file: ddtraj1t44.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem15895
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem15895
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem15895
+workdir0:    /scratch/qchem/qchem15895
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem15895.0 -- /scratch/qchem/qchem15895.0
+rm -rf /scratch/qchem/qchem15895.0
+rm -rf /scratch/qchem/qchem15895
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t45.inp
+output file: ddtraj1t45.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem16020
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem16020
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem16020
+workdir0:    /scratch/qchem/qchem16020
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+Aborted (core dumped)
+remove work dirs /scratch/qchem/qchem16020.0 -- /scratch/qchem/qchem16020.0
+rm -rf /scratch/qchem/qchem16020.0
+rm -rf /scratch/qchem/qchem16020
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t46.inp
+output file: ddtraj1t46.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem16144
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem16144
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem16144
+workdir0:    /scratch/qchem/qchem16144
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+Aborted (core dumped)
+remove work dirs /scratch/qchem/qchem16144.0 -- /scratch/qchem/qchem16144.0
+rm -rf /scratch/qchem/qchem16144.0
+rm -rf /scratch/qchem/qchem16144
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t47.inp
+output file: ddtraj1t47.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem16269
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem16269
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem16269
+workdir0:    /scratch/qchem/qchem16269
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+Aborted (core dumped)
+remove work dirs /scratch/qchem/qchem16269.0 -- /scratch/qchem/qchem16269.0
+rm -rf /scratch/qchem/qchem16269.0
+rm -rf /scratch/qchem/qchem16269
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t48.inp
+output file: ddtraj1t48.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem16394
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem16394
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem16394
+workdir0:    /scratch/qchem/qchem16394
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+Aborted (core dumped)
+remove work dirs /scratch/qchem/qchem16394.0 -- /scratch/qchem/qchem16394.0
+rm -rf /scratch/qchem/qchem16394.0
+rm -rf /scratch/qchem/qchem16394
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t49.inp
+output file: ddtraj1t49.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem16520
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem16520
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem16520
+workdir0:    /scratch/qchem/qchem16520
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+Aborted (core dumped)
+remove work dirs /scratch/qchem/qchem16520.0 -- /scratch/qchem/qchem16520.0
+rm -rf /scratch/qchem/qchem16520.0
+rm -rf /scratch/qchem/qchem16520
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t50.inp
+output file: ddtraj1t50.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem16647
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem16647
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem16647
+workdir0:    /scratch/qchem/qchem16647
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+Aborted (core dumped)
+remove work dirs /scratch/qchem/qchem16647.0 -- /scratch/qchem/qchem16647.0
+rm -rf /scratch/qchem/qchem16647.0
+rm -rf /scratch/qchem/qchem16647
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t0.inp
+output file: ddtraj1t0.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem17431
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem17431
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem17431
+workdir0:    /scratch/qchem/qchem17431
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t26.inp
+output file: ddtraj1t26.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem17612
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem17612
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem17612
+workdir0:    /scratch/qchem/qchem17612
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem17431.0 -- /scratch/qchem/qchem17431.0
+rm -rf /scratch/qchem/qchem17431.0
+rm -rf /scratch/qchem/qchem17431
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t1.inp
+output file: ddtraj1t1.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem18920
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem18920
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem18920
+workdir0:    /scratch/qchem/qchem18920
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem17612.0 -- /scratch/qchem/qchem17612.0
+rm -rf /scratch/qchem/qchem17612.0
+rm -rf /scratch/qchem/qchem17612
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t27.inp
+output file: ddtraj1t27.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem19052
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem19052
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem19052
+workdir0:    /scratch/qchem/qchem19052
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem19052.0 -- /scratch/qchem/qchem19052.0
+rm -rf /scratch/qchem/qchem19052.0
+rm -rf /scratch/qchem/qchem19052
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t28.inp
+output file: ddtraj1t28.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem20922
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem20922
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem20922
+workdir0:    /scratch/qchem/qchem20922
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem18920.0 -- /scratch/qchem/qchem18920.0
+rm -rf /scratch/qchem/qchem18920.0
+rm -rf /scratch/qchem/qchem18920
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t2.inp
+output file: ddtraj1t2.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem21180
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem21180
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem21180
+workdir0:    /scratch/qchem/qchem21180
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem20922.0 -- /scratch/qchem/qchem20922.0
+rm -rf /scratch/qchem/qchem20922.0
+rm -rf /scratch/qchem/qchem20922
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t29.inp
+output file: ddtraj1t29.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem23135
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem23135
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem23135
+workdir0:    /scratch/qchem/qchem23135
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem21180.0 -- /scratch/qchem/qchem21180.0
+rm -rf /scratch/qchem/qchem21180.0
+rm -rf /scratch/qchem/qchem21180
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t3.inp
+output file: ddtraj1t3.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem23359
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem23359
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem23359
+workdir0:    /scratch/qchem/qchem23359
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem23135.0 -- /scratch/qchem/qchem23135.0
+rm -rf /scratch/qchem/qchem23135.0
+rm -rf /scratch/qchem/qchem23135
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t30.inp
+output file: ddtraj1t30.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem25586
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem25586
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem25586
+workdir0:    /scratch/qchem/qchem25586
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem23359.0 -- /scratch/qchem/qchem23359.0
+rm -rf /scratch/qchem/qchem23359.0
+rm -rf /scratch/qchem/qchem23359
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t4.inp
+output file: ddtraj1t4.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem25744
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem25744
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem25744
+workdir0:    /scratch/qchem/qchem25744
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem25744.0 -- /scratch/qchem/qchem25744.0
+rm -rf /scratch/qchem/qchem25744.0
+rm -rf /scratch/qchem/qchem25744
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t5.inp
+output file: ddtraj1t5.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem10366
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem10366
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem10366
+workdir0:    /scratch/qchem/qchem10366
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem25586.0 -- /scratch/qchem/qchem25586.0
+rm -rf /scratch/qchem/qchem25586.0
+rm -rf /scratch/qchem/qchem25586
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t31.inp
+output file: ddtraj1t31.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem11718
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem11718
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem11718
+workdir0:    /scratch/qchem/qchem11718
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem10366.0 -- /scratch/qchem/qchem10366.0
+rm -rf /scratch/qchem/qchem10366.0
+rm -rf /scratch/qchem/qchem10366
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t6.inp
+output file: ddtraj1t6.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem25471
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem25471
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem25471
+workdir0:    /scratch/qchem/qchem25471
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem11718.0 -- /scratch/qchem/qchem11718.0
+rm -rf /scratch/qchem/qchem11718.0
+rm -rf /scratch/qchem/qchem11718
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t32.inp
+output file: ddtraj1t32.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem29251
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem29251
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem29251
+workdir0:    /scratch/qchem/qchem29251
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem25471.0 -- /scratch/qchem/qchem25471.0
+rm -rf /scratch/qchem/qchem25471.0
+rm -rf /scratch/qchem/qchem25471
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t7.inp
+output file: ddtraj1t7.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem10205
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem10205
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem10205
+workdir0:    /scratch/qchem/qchem10205
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem29251.0 -- /scratch/qchem/qchem29251.0
+rm -rf /scratch/qchem/qchem29251.0
+rm -rf /scratch/qchem/qchem29251
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t33.inp
+output file: ddtraj1t33.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem14272
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem14272
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem14272
+workdir0:    /scratch/qchem/qchem14272
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem10205.0 -- /scratch/qchem/qchem10205.0
+rm -rf /scratch/qchem/qchem10205.0
+rm -rf /scratch/qchem/qchem10205
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t8.inp
+output file: ddtraj1t8.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem26516
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem26516
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem26516
+workdir0:    /scratch/qchem/qchem26516
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem14272.0 -- /scratch/qchem/qchem14272.0
+rm -rf /scratch/qchem/qchem14272.0
+rm -rf /scratch/qchem/qchem14272
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t34.inp
+output file: ddtraj1t34.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem31166
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem31166
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem31166
+workdir0:    /scratch/qchem/qchem31166
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem26516.0 -- /scratch/qchem/qchem26516.0
+rm -rf /scratch/qchem/qchem26516.0
+rm -rf /scratch/qchem/qchem26516
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t9.inp
+output file: ddtraj1t9.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem9400
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem9400
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem9400
+workdir0:    /scratch/qchem/qchem9400
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem31166.0 -- /scratch/qchem/qchem31166.0
+rm -rf /scratch/qchem/qchem31166.0
+rm -rf /scratch/qchem/qchem31166
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t35.inp
+output file: ddtraj1t35.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem16226
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem16226
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem16226
+workdir0:    /scratch/qchem/qchem16226
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem9400.0 -- /scratch/qchem/qchem9400.0
+rm -rf /scratch/qchem/qchem9400.0
+rm -rf /scratch/qchem/qchem9400
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t10.inp
+output file: ddtraj1t10.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem25134
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem25134
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem25134
+workdir0:    /scratch/qchem/qchem25134
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem16226.0 -- /scratch/qchem/qchem16226.0
+rm -rf /scratch/qchem/qchem16226.0
+rm -rf /scratch/qchem/qchem16226
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t36.inp
+output file: ddtraj1t36.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem31728
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem31728
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem31728
+workdir0:    /scratch/qchem/qchem31728
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem25134.0 -- /scratch/qchem/qchem25134.0
+rm -rf /scratch/qchem/qchem25134.0
+rm -rf /scratch/qchem/qchem25134
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t11.inp
+output file: ddtraj1t11.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem1184
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem1184
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem1184
+workdir0:    /scratch/qchem/qchem1184
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem31728.0 -- /scratch/qchem/qchem31728.0
+rm -rf /scratch/qchem/qchem31728.0
+rm -rf /scratch/qchem/qchem31728
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t37.inp
+output file: ddtraj1t37.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem3101
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem3101
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem3101
+workdir0:    /scratch/qchem/qchem3101
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem1184.0 -- /scratch/qchem/qchem1184.0
+rm -rf /scratch/qchem/qchem1184.0
+rm -rf /scratch/qchem/qchem1184
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t12.inp
+output file: ddtraj1t12.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem4735
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem4735
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem4735
+workdir0:    /scratch/qchem/qchem4735
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem3101.0 -- /scratch/qchem/qchem3101.0
+rm -rf /scratch/qchem/qchem3101.0
+rm -rf /scratch/qchem/qchem3101
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t38.inp
+output file: ddtraj1t38.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem6851
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem6851
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem6851
+workdir0:    /scratch/qchem/qchem6851
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem4735.0 -- /scratch/qchem/qchem4735.0
+rm -rf /scratch/qchem/qchem4735.0
+rm -rf /scratch/qchem/qchem4735
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t13.inp
+output file: ddtraj1t13.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem7809
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem7809
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem7809
+workdir0:    /scratch/qchem/qchem7809
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem6851.0 -- /scratch/qchem/qchem6851.0
+rm -rf /scratch/qchem/qchem6851.0
+rm -rf /scratch/qchem/qchem6851
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t39.inp
+output file: ddtraj1t39.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem8757
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem8757
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem8757
+workdir0:    /scratch/qchem/qchem8757
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem7809.0 -- /scratch/qchem/qchem7809.0
+rm -rf /scratch/qchem/qchem7809.0
+rm -rf /scratch/qchem/qchem7809
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t14.inp
+output file: ddtraj1t14.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem9294
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem9294
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem9294
+workdir0:    /scratch/qchem/qchem9294
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem8757.0 -- /scratch/qchem/qchem8757.0
+rm -rf /scratch/qchem/qchem8757.0
+rm -rf /scratch/qchem/qchem8757
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t40.inp
+output file: ddtraj1t40.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem10165
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem10165
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem10165
+workdir0:    /scratch/qchem/qchem10165
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem9294.0 -- /scratch/qchem/qchem9294.0
+rm -rf /scratch/qchem/qchem9294.0
+rm -rf /scratch/qchem/qchem9294
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t15.inp
+output file: ddtraj1t15.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem10424
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem10424
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem10424
+workdir0:    /scratch/qchem/qchem10424
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem10165.0 -- /scratch/qchem/qchem10165.0
+rm -rf /scratch/qchem/qchem10165.0
+rm -rf /scratch/qchem/qchem10165
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t41.inp
+output file: ddtraj1t41.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem11317
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem11317
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem11317
+workdir0:    /scratch/qchem/qchem11317
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem10424.0 -- /scratch/qchem/qchem10424.0
+rm -rf /scratch/qchem/qchem10424.0
+rm -rf /scratch/qchem/qchem10424
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t16.inp
+output file: ddtraj1t16.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem11795
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem11795
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem11795
+workdir0:    /scratch/qchem/qchem11795
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem11317.0 -- /scratch/qchem/qchem11317.0
+rm -rf /scratch/qchem/qchem11317.0
+rm -rf /scratch/qchem/qchem11317
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t42.inp
+output file: ddtraj1t42.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem12732
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem12732
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem12732
+workdir0:    /scratch/qchem/qchem12732
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem11795.0 -- /scratch/qchem/qchem11795.0
+rm -rf /scratch/qchem/qchem11795.0
+rm -rf /scratch/qchem/qchem11795
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t17.inp
+output file: ddtraj1t17.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem13157
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem13157
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem13157
+workdir0:    /scratch/qchem/qchem13157
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem12732.0 -- /scratch/qchem/qchem12732.0
+rm -rf /scratch/qchem/qchem12732.0
+rm -rf /scratch/qchem/qchem12732
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t43.inp
+output file: ddtraj1t43.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem14093
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem14093
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem14093
+workdir0:    /scratch/qchem/qchem14093
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem13157.0 -- /scratch/qchem/qchem13157.0
+rm -rf /scratch/qchem/qchem13157.0
+rm -rf /scratch/qchem/qchem13157
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t18.inp
+output file: ddtraj1t18.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem14621
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem14621
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem14621
+workdir0:    /scratch/qchem/qchem14621
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem14093.0 -- /scratch/qchem/qchem14093.0
+rm -rf /scratch/qchem/qchem14093.0
+rm -rf /scratch/qchem/qchem14093
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t44.inp
+output file: ddtraj1t44.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem15638
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem15638
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem15638
+workdir0:    /scratch/qchem/qchem15638
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem14621.0 -- /scratch/qchem/qchem14621.0
+rm -rf /scratch/qchem/qchem14621.0
+rm -rf /scratch/qchem/qchem14621
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t19.inp
+output file: ddtraj1t19.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem16409
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem16409
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem16409
+workdir0:    /scratch/qchem/qchem16409
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem15638.0 -- /scratch/qchem/qchem15638.0
+rm -rf /scratch/qchem/qchem15638.0
+rm -rf /scratch/qchem/qchem15638
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t45.inp
+output file: ddtraj1t45.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem16760
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem16760
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem16760
+workdir0:    /scratch/qchem/qchem16760
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem16409.0 -- /scratch/qchem/qchem16409.0
+rm -rf /scratch/qchem/qchem16409.0
+rm -rf /scratch/qchem/qchem16409
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t20.inp
+output file: ddtraj1t20.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem17243
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem17243
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem17243
+workdir0:    /scratch/qchem/qchem17243
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem16760.0 -- /scratch/qchem/qchem16760.0
+rm -rf /scratch/qchem/qchem16760.0
+rm -rf /scratch/qchem/qchem16760
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t46.inp
+output file: ddtraj1t46.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem17569
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem17569
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem17569
+workdir0:    /scratch/qchem/qchem17569
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem17243.0 -- /scratch/qchem/qchem17243.0
+rm -rf /scratch/qchem/qchem17243.0
+rm -rf /scratch/qchem/qchem17243
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t21.inp
+output file: ddtraj1t21.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem17853
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem17853
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem17853
+workdir0:    /scratch/qchem/qchem17853
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem17569.0 -- /scratch/qchem/qchem17569.0
+rm -rf /scratch/qchem/qchem17569.0
+rm -rf /scratch/qchem/qchem17569
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t47.inp
+output file: ddtraj1t47.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem18204
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem18204
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem18204
+workdir0:    /scratch/qchem/qchem18204
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem17853.0 -- /scratch/qchem/qchem17853.0
+rm -rf /scratch/qchem/qchem17853.0
+rm -rf /scratch/qchem/qchem17853
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t22.inp
+output file: ddtraj1t22.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem18767
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem18767
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem18767
+workdir0:    /scratch/qchem/qchem18767
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem18204.0 -- /scratch/qchem/qchem18204.0
+rm -rf /scratch/qchem/qchem18204.0
+rm -rf /scratch/qchem/qchem18204
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t48.inp
+output file: ddtraj1t48.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem19018
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem19018
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem19018
+workdir0:    /scratch/qchem/qchem19018
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem18767.0 -- /scratch/qchem/qchem18767.0
+rm -rf /scratch/qchem/qchem18767.0
+rm -rf /scratch/qchem/qchem18767
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t23.inp
+output file: ddtraj1t23.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem19540
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem19540
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem19540
+workdir0:    /scratch/qchem/qchem19540
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem19018.0 -- /scratch/qchem/qchem19018.0
+rm -rf /scratch/qchem/qchem19018.0
+rm -rf /scratch/qchem/qchem19018
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t49.inp
+output file: ddtraj1t49.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem19724
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem19724
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem19724
+workdir0:    /scratch/qchem/qchem19724
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem19724.0 -- /scratch/qchem/qchem19724.0
+rm -rf /scratch/qchem/qchem19724.0
+rm -rf /scratch/qchem/qchem19724
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t50.inp
+output file: ddtraj1t50.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem20354
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem20354
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem20354
+workdir0:    /scratch/qchem/qchem20354
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem19540.0 -- /scratch/qchem/qchem19540.0
+rm -rf /scratch/qchem/qchem19540.0
+rm -rf /scratch/qchem/qchem19540
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t24.inp
+output file: ddtraj1t24.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem20525
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem20525
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem20525
+workdir0:    /scratch/qchem/qchem20525
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem20354.0 -- /scratch/qchem/qchem20354.0
+rm -rf /scratch/qchem/qchem20354.0
+rm -rf /scratch/qchem/qchem20354
+remove work dirs /scratch/qchem/qchem20525.0 -- /scratch/qchem/qchem20525.0
+rm -rf /scratch/qchem/qchem20525.0
+rm -rf /scratch/qchem/qchem20525
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t25.inp
+output file: ddtraj1t25.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem20994
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem20994
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem20994
+workdir0:    /scratch/qchem/qchem20994
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem20994.0 -- /scratch/qchem/qchem20994.0
+rm -rf /scratch/qchem/qchem20994.0
+rm -rf /scratch/qchem/qchem20994
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t7.inp
+output file: ddtraj1t7.out
+nprocs     : 1
+nthreads   : 4
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem26871
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem26871
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem26871
+workdir0:    /scratch/qchem/qchem26871
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem26871.0 -- /scratch/qchem/qchem26871.0
+rm -rf /scratch/qchem/qchem26871.0
+rm -rf /scratch/qchem/qchem26871
+You are running Q-Chem version: 4.3
+
+#
+# job setting
+#
+local host:  tp-linux1
+current dir: /home/thomas/cf4_xas/qchem
+input file:  ddtraj1t7.inp
+output file: ddtraj1t7.out
+nprocs     : 1
+nthreads   : 1
+#
+# qchem installation setting
+#
+QC:          /mnt/software/qchem
+QCAUX:       /mnt/software/qchem/qcaux
+QCPROG:      /mnt/software/qchem/exe/qcprog.exe
+QCPROG_S:    /mnt/software/qchem/exe/qcprog.exe_s
+PARALLEL:    -DPARALLEL
+QCMPI:       mpich
+#
+# qchem directory setting
+#
+qcrun:       qchem27282
+QCSCRATCH:   /scratch/qchem
+QCLOCALSCR:  
+QCTMPDIR:    /scratch/qchem
+QCFILEPREF:  /scratch/qchem/qchem27282
+QCSAVEDIR:   
+workdirs:    /scratch/qchem/qchem27282
+workdir0:    /scratch/qchem/qchem27282
+partmpdirs =  
+#
+# parallel setting
+#
+QCRSH:           ssh
+QCMPI:           mpich
+QCMPIRUN:        /mnt/software/qchem/bin/mpi/mpirun_qchem
+QCMACHINEFILE:   /mnt/software/qchem/bin/mpi/machines
+127.0.1.1 32
+
+#
+# env setting
+#
+exported envs:   QC QCAUX QCSCRATCH QCRUNNAME QCFILEPREF QCPROG QCPROG_S GUIFILE
+remove work dirs /scratch/qchem/qchem27282.0 -- /scratch/qchem/qchem27282.0
+rm -rf /scratch/qchem/qchem27282.0
+rm -rf /scratch/qchem/qchem27282

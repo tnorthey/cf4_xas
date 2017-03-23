@@ -7,6 +7,8 @@ import sys
 option=sys.argv[1].lower()	# adc/src option, case insenstive 
 filename=sys.argv[2]		# file name
 weight=float(sys.argv[3])       # weighting coeff
+xmin=float(sys.argv[4])         # xmin value
+xmax=float(sys.argv[5])         # xmax value
 
 if option=='adc':
    XAS = read_adc(filename)
@@ -15,8 +17,8 @@ elif option=='src':
 else: 
    print "Error: Pick option='ADC' or 'SRC'"
 
-fwhm=.5					        # 0.5 eV FWHM for Lorentzian broadening
-x,spect = generate_spectrum(XAS,fwhm,weight)	# generate spectrum
+fwhm=.5					                # 0.5 eV FWHM for Lorentzian broadening
+x,spect = generate_spectrum(XAS,fwhm,weight,xmin,xmax)	# generate spectrum
 
 # Write spectrum to file
 with open('spectrum.dat','w') as f:

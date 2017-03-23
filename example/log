@@ -1,9 +1,9 @@
 
------- Host: "tp-linux1" ----------Tue Mar 21 12:48:18 2017
+------ Host: "tp-linux1" ----------Wed Mar 22 15:34:10 2017
                     
  /home/thomas/cf4_xas/example
 
- PID = 21991
+ PID =  6021
 
 Program name: quantics
 
@@ -53,7 +53,7 @@ Timing file opened
 ########################################################################
 
  Creating DVR file: /home/thomas/cf4_xas/example/dvr
-                                                         Mar 21 12:48:18
+                                                         Mar 22 15:34:10
 ########################################################################
 
 ------------------------------------------------------------------------
@@ -103,7 +103,7 @@ Timing file read
 ########################################################################
 
  Creating OPER file: /home/thomas/cf4_xas/example/oper
-                                                         Mar 21 12:48:18
+                                                         Mar 22 15:34:10
 ########################################################################
 
 Assigning Operators From Library
@@ -133,8 +133,11 @@ total array memory in mb     (used):         0.0
 
 ------------------------------------------------------------------------
 
+*** Converting Ascii DB ***
+/home/thomas/cf4_xas/dd_data
+
 Using old DB :/home/thomas/cf4_xas/dd_data
-NREC         :         4
+NREC         :        83
 
 ***** Operator details *****
 
@@ -188,7 +191,7 @@ Quantum chemistry program : GAUSSIAN
 Quantum chemistry program : GAUSSIAN
 
 Using old DB :/home/thomas/cf4_xas/dd_data
-NREC         :         4
+NREC         :        83
 
 Timing file opened
 Timing file read
@@ -196,13 +199,13 @@ Timing file read
 ########################################################################
 
 Creating RESTART file 
-                                                         Mar 21 12:48:18
+                                                         Mar 22 15:34:10
 ########################################################################
 
 **** Reading OPER file ****
 
 Created on:
------- Host: "tp-linux1" ----------Tue Mar 21 12:48:18 2017
+------ Host: "tp-linux1" ----------Wed Mar 22 15:34:10 2017
                     
 
 
@@ -283,11 +286,11 @@ mode state   shell subshell
 **** Reading OPER file ****
 
 Created on:
------- Host: "tp-linux1" ----------Tue Mar 21 12:48:18 2017
+------ Host: "tp-linux1" ----------Wed Mar 22 15:34:10 2017
                     
 
 Using old DB :/home/thomas/cf4_xas/dd_data
-NREC         :         4
+NREC         :        83
 
  GENINWF terminated normally.
 
@@ -297,20 +300,20 @@ Timing file read
 ########################################################################
 
  Propagating Wavefunction 
-                                                         Mar 21 12:48:18
+                                                         Mar 22 15:34:10
 ########################################################################
 
 **** Reading OPER file ****
 
 Created on:
------- Host: "tp-linux1" ----------Tue Mar 21 12:48:18 2017
+------ Host: "tp-linux1" ----------Wed Mar 22 15:34:10 2017
                     
 
 **** RSTINFO: Reading RESTART file ****
   UHF/6-31g*.                                                                   
 Type : wavefunction, file-version = 12.01000
 Created on:
------- Host: "tp-linux1" ----------Tue Mar 21 12:48:18 2017
+------ Host: "tp-linux1" ----------Wed Mar 22 15:34:10 2017
                                         
 
 WARNING in subroutine Chkprop:
@@ -351,17 +354,17 @@ total array memory in mb     (used):         0.1
 **** Reading OPER file ****
 
 Created on:
------- Host: "tp-linux1" ----------Tue Mar 21 12:48:18 2017
+------ Host: "tp-linux1" ----------Wed Mar 22 15:34:10 2017
                     
 
 Using old DB :/home/thomas/cf4_xas/dd_data
-NREC         :         4
+NREC         :        83
 
 **** RSTINFO: Reading RESTART file ****
   UHF/6-31g*.                                                                   
 Type : wavefunction, file-version = 12.01000
 Created on:
------- Host: "tp-linux1" ----------Tue Mar 21 12:48:18 2017
+------ Host: "tp-linux1" ----------Wed Mar 22 15:34:10 2017
                                         
 
 ***** Calculation type *****
@@ -420,50 +423,6 @@ Time    0.000  15 of   15 Gaussian DoFs active
  time[fs]        9.000
  time[fs]       10.000
  time[fs]       11.000
-Problem reading dipole moment.                                                                                                                                                                                                                  
-Force not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                        
-Force constants not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                              
-Electronic structure failure in /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                
-Problem reading dipole moment.                                                                                                                                                                                                                  
-Force not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                        
-Force constants not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                              
-Electronic structure failure in /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                
-Problem reading dipole moment.                                                                                                                                                                                                                  
-Force not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                        
-Force constants not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                              
-Electronic structure failure in /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                
-Problem reading dipole moment.                                                                                                                                                                                                                  
-Force not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                        
-Force constants not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                              
-Electronic structure failure in /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                
-Problem reading dipole moment.                                                                                                                                                                                                                  
-Force not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                        
-Force constants not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                              
-Electronic structure failure in /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                
-Problem reading dipole moment.                                                                                                                                                                                                                  
-Force not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                        
-Force constants not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                              
-Electronic structure failure in /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                
-Problem reading dipole moment.                                                                                                                                                                                                                  
-Force not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                        
-Force constants not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                              
-Electronic structure failure in /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                
-Problem reading dipole moment.                                                                                                                                                                                                                  
-Force not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                        
-Force constants not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                              
-Electronic structure failure in /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                
-Problem reading dipole moment.                                                                                                                                                                                                                  
-Force not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                        
-Force constants not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                              
-Electronic structure failure in /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                
-Problem reading dipole moment.                                                                                                                                                                                                                  
-Force not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                        
-Force constants not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                              
-Electronic structure failure in /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                
-Problem reading dipole moment.                                                                                                                                                                                                                  
-Force not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                        
-Force constants not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                              
-Electronic structure failure in /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                
  time[fs]       12.000
  time[fs]       13.000
  time[fs]       14.000
@@ -474,94 +433,6 @@ Electronic structure failure in /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log
  time[fs]       19.000
  time[fs]       20.000
  time[fs]       21.000
-Problem reading dipole moment.                                                                                                                                                                                                                  
-Force not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                        
-Force constants not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                              
-Electronic structure failure in /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                
-Problem reading dipole moment.                                                                                                                                                                                                                  
-Force not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                        
-Force constants not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                              
-Electronic structure failure in /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                
-Problem reading dipole moment.                                                                                                                                                                                                                  
-Force not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                        
-Force constants not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                              
-Electronic structure failure in /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                
-Problem reading dipole moment.                                                                                                                                                                                                                  
-Force not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                        
-Force constants not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                              
-Electronic structure failure in /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                
-Problem reading dipole moment.                                                                                                                                                                                                                  
-Force not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                        
-Force constants not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                              
-Electronic structure failure in /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                
-Problem reading dipole moment.                                                                                                                                                                                                                  
-Force not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                        
-Force constants not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                              
-Electronic structure failure in /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                
-Problem reading dipole moment.                                                                                                                                                                                                                  
-Force not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                        
-Force constants not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                              
-Electronic structure failure in /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                
-Problem reading dipole moment.                                                                                                                                                                                                                  
-Force not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                        
-Force constants not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                              
-Electronic structure failure in /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                
-Problem reading dipole moment.                                                                                                                                                                                                                  
-Force not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                        
-Force constants not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                              
-Electronic structure failure in /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                
-Problem reading dipole moment.                                                                                                                                                                                                                  
-Force not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                        
-Force constants not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                              
-Electronic structure failure in /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                
-Problem reading dipole moment.                                                                                                                                                                                                                  
-Force not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                        
-Force constants not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                              
-Electronic structure failure in /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                
-Problem reading dipole moment.                                                                                                                                                                                                                  
-Force not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                        
-Force constants not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                              
-Electronic structure failure in /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                
-Problem reading dipole moment.                                                                                                                                                                                                                  
-Force not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                        
-Force constants not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                              
-Electronic structure failure in /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                
-Problem reading dipole moment.                                                                                                                                                                                                                  
-Force not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                        
-Force constants not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                              
-Electronic structure failure in /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                
-Problem reading dipole moment.                                                                                                                                                                                                                  
-Force not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                        
-Force constants not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                              
-Electronic structure failure in /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                
-Problem reading dipole moment.                                                                                                                                                                                                                  
-Force not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                        
-Force constants not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                              
-Electronic structure failure in /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                
-Problem reading dipole moment.                                                                                                                                                                                                                  
-Force not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                        
-Force constants not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                              
-Electronic structure failure in /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                
-Problem reading dipole moment.                                                                                                                                                                                                                  
-Force not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                        
-Force constants not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                              
-Electronic structure failure in /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                
-Problem reading dipole moment.                                                                                                                                                                                                                  
-Force not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                        
-Force constants not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                              
-Electronic structure failure in /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                
-Problem reading dipole moment.                                                                                                                                                                                                                  
-Force not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                        
-Force constants not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                              
-Electronic structure failure in /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                
-Problem reading dipole moment.                                                                                                                                                                                                                  
-Force not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                        
-Force constants not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                              
-Electronic structure failure in /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                
-Problem reading dipole moment.                                                                                                                                                                                                                  
-Force not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                        
-Force constants not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                              
-Electronic structure failure in /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                
  time[fs]       22.000
  time[fs]       23.000
  time[fs]       24.000
@@ -606,54 +477,6 @@ Electronic structure failure in /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log
  time[fs]       63.000
  time[fs]       64.000
  time[fs]       65.000
-Problem reading dipole moment.                                                                                                                                                                                                                  
-Force not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                        
-Force constants not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                              
-Electronic structure failure in /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                
-Problem reading dipole moment.                                                                                                                                                                                                                  
-Force not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                        
-Force constants not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                              
-Electronic structure failure in /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                
-Problem reading dipole moment.                                                                                                                                                                                                                  
-Force not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                        
-Force constants not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                              
-Electronic structure failure in /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                
-Problem reading dipole moment.                                                                                                                                                                                                                  
-Force not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                        
-Force constants not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                              
-Electronic structure failure in /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                
-Problem reading dipole moment.                                                                                                                                                                                                                  
-Force not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                        
-Force constants not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                              
-Electronic structure failure in /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                
-Problem reading dipole moment.                                                                                                                                                                                                                  
-Force not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                        
-Force constants not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                              
-Electronic structure failure in /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                
-Problem reading dipole moment.                                                                                                                                                                                                                  
-Force not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                        
-Force constants not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                              
-Electronic structure failure in /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                
-Problem reading dipole moment.                                                                                                                                                                                                                  
-Force not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                        
-Force constants not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                              
-Electronic structure failure in /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                
-Problem reading dipole moment.                                                                                                                                                                                                                  
-Force not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                        
-Force constants not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                              
-Electronic structure failure in /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                
-Problem reading dipole moment.                                                                                                                                                                                                                  
-Force not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                        
-Force constants not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                              
-Electronic structure failure in /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                
-Problem reading dipole moment.                                                                                                                                                                                                                  
-Force not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                        
-Force constants not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                              
-Electronic structure failure in /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                
-Problem reading dipole moment.                                                                                                                                                                                                                  
-Force not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                        
-Force constants not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                              
-Electronic structure failure in /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                
  time[fs]       66.000
  time[fs]       67.000
  time[fs]       68.000
@@ -675,30 +498,6 @@ Electronic structure failure in /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log
  time[fs]       84.000
  time[fs]       85.000
  time[fs]       86.000
-Problem reading dipole moment.                                                                                                                                                                                                                  
-Force not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                        
-Force constants not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                              
-Electronic structure failure in /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                
-Problem reading dipole moment.                                                                                                                                                                                                                  
-Force not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                        
-Force constants not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                              
-Electronic structure failure in /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                
-Problem reading dipole moment.                                                                                                                                                                                                                  
-Force not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                        
-Force constants not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                              
-Electronic structure failure in /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                
-Problem reading dipole moment.                                                                                                                                                                                                                  
-Force not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                        
-Force constants not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                              
-Electronic structure failure in /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                
-Problem reading dipole moment.                                                                                                                                                                                                                  
-Force not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                        
-Force constants not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                              
-Electronic structure failure in /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                
-Problem reading dipole moment.                                                                                                                                                                                                                  
-Force not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                        
-Force constants not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                              
-Electronic structure failure in /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                
  time[fs]       87.000
  time[fs]       88.000
  time[fs]       89.000
@@ -712,10 +511,6 @@ Electronic structure failure in /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log
  time[fs]       97.000
  time[fs]       98.000
  time[fs]       99.000
-Problem reading dipole moment.                                                                                                                                                                                                                  
-Force not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                        
-Force constants not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                              
-Electronic structure failure in /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                
  time[fs]      100.000
  time[fs]      101.000
  time[fs]      102.000
@@ -741,10 +536,6 @@ Electronic structure failure in /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log
  time[fs]      122.000
  time[fs]      123.000
  time[fs]      124.000
-Problem reading dipole moment.                                                                                                                                                                                                                  
-Force not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                        
-Force constants not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                              
-Electronic structure failure in /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                
  time[fs]      125.000
  time[fs]      126.000
  time[fs]      127.000
@@ -772,57 +563,9 @@ Electronic structure failure in /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log
  time[fs]      149.000
  time[fs]      150.000
  time[fs]      151.000
-Problem reading dipole moment.                                                                                                                                                                                                                  
-Force not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                        
-Force constants not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                              
-Electronic structure failure in /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                
-Problem reading dipole moment.                                                                                                                                                                                                                  
-Force not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                        
-Force constants not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                              
-Electronic structure failure in /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                
-Problem reading dipole moment.                                                                                                                                                                                                                  
-Force not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                        
-Force constants not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                              
-Electronic structure failure in /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                
-Problem reading dipole moment.                                                                                                                                                                                                                  
-Force not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                        
-Force constants not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                              
-Electronic structure failure in /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                
-Problem reading dipole moment.                                                                                                                                                                                                                  
-Force not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                        
-Force constants not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                              
-Electronic structure failure in /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                
-Problem reading dipole moment.                                                                                                                                                                                                                  
-Force not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                        
-Force constants not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                              
-Electronic structure failure in /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                
-Problem reading dipole moment.                                                                                                                                                                                                                  
-Force not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                        
-Force constants not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                              
-Electronic structure failure in /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                
-Problem reading dipole moment.                                                                                                                                                                                                                  
-Force not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                        
-Force constants not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                              
-Electronic structure failure in /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                
  time[fs]      152.000
  time[fs]      153.000
  time[fs]      154.000
-Problem reading dipole moment.                                                                                                                                                                                                                  
-Force not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                        
-Force constants not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                              
-Electronic structure failure in /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                
-Problem reading dipole moment.                                                                                                                                                                                                                  
-Force not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                        
-Force constants not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                              
-Electronic structure failure in /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                
-Problem reading dipole moment.                                                                                                                                                                                                                  
-Force not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                        
-Force constants not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                              
-Electronic structure failure in /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                
-Problem reading dipole moment.                                                                                                                                                                                                                  
-Force not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                        
-Force constants not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                              
-Electronic structure failure in /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                
  time[fs]      155.000
  time[fs]      156.000
  time[fs]      157.000
@@ -836,18 +579,6 @@ Electronic structure failure in /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log
  time[fs]      165.000
  time[fs]      166.000
  time[fs]      167.000
-Problem reading dipole moment.                                                                                                                                                                                                                  
-Force not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                        
-Force constants not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                              
-Electronic structure failure in /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                
-Problem reading dipole moment.                                                                                                                                                                                                                  
-Force not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                        
-Force constants not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                              
-Electronic structure failure in /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                
-Problem reading dipole moment.                                                                                                                                                                                                                  
-Force not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                        
-Force constants not found on file /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                              
-Electronic structure failure in /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log                                                                                                                                                                
  time[fs]      168.000
  time[fs]      169.000
  time[fs]      170.000
@@ -881,15 +612,115 @@ Electronic structure failure in /home/thomas/cf4_xas/dd_data/gwp1_V1_dd_data.log
  time[fs]      198.000
  time[fs]      199.000
  time[fs]      200.000
+ time[fs]      201.000
+ time[fs]      202.000
+ time[fs]      203.000
+ time[fs]      204.000
+ time[fs]      205.000
+ time[fs]      206.000
+ time[fs]      207.000
+ time[fs]      208.000
+ time[fs]      209.000
+ time[fs]      210.000
+ time[fs]      211.000
+ time[fs]      212.000
+ time[fs]      213.000
+ time[fs]      214.000
+ time[fs]      215.000
+ time[fs]      216.000
+ time[fs]      217.000
+ time[fs]      218.000
+ time[fs]      219.000
+ time[fs]      220.000
+ time[fs]      221.000
+ time[fs]      222.000
+ time[fs]      223.000
+ time[fs]      224.000
+ time[fs]      225.000
+ time[fs]      226.000
+ time[fs]      227.000
+ time[fs]      228.000
+ time[fs]      229.000
+ time[fs]      230.000
+ time[fs]      231.000
+ time[fs]      232.000
+ time[fs]      233.000
+ time[fs]      234.000
+ time[fs]      235.000
+ time[fs]      236.000
+ time[fs]      237.000
+ time[fs]      238.000
+ time[fs]      239.000
+ time[fs]      240.000
+ time[fs]      241.000
+ time[fs]      242.000
+ time[fs]      243.000
+ time[fs]      244.000
+ time[fs]      245.000
+ time[fs]      246.000
+ time[fs]      247.000
+ time[fs]      248.000
+ time[fs]      249.000
+ time[fs]      250.000
+ time[fs]      251.000
+ time[fs]      252.000
+ time[fs]      253.000
+ time[fs]      254.000
+ time[fs]      255.000
+ time[fs]      256.000
+ time[fs]      257.000
+ time[fs]      258.000
+ time[fs]      259.000
+ time[fs]      260.000
+ time[fs]      261.000
+ time[fs]      262.000
+ time[fs]      263.000
+ time[fs]      264.000
+ time[fs]      265.000
+ time[fs]      266.000
+ time[fs]      267.000
+ time[fs]      268.000
+ time[fs]      269.000
+ time[fs]      270.000
+ time[fs]      271.000
+ time[fs]      272.000
+ time[fs]      273.000
+ time[fs]      274.000
+ time[fs]      275.000
+ time[fs]      276.000
+ time[fs]      277.000
+ time[fs]      278.000
+ time[fs]      279.000
+ time[fs]      280.000
+ time[fs]      281.000
+ time[fs]      282.000
+ time[fs]      283.000
+ time[fs]      284.000
+ time[fs]      285.000
+ time[fs]      286.000
+ time[fs]      287.000
+ time[fs]      288.000
+ time[fs]      289.000
+ time[fs]      290.000
+ time[fs]      291.000
+ time[fs]      292.000
+ time[fs]      293.000
+ time[fs]      294.000
+ time[fs]      295.000
+ time[fs]      296.000
+ time[fs]      297.000
+ time[fs]      298.000
+ time[fs]      299.000
+ time[fs]      300.000
 
 ***** Integration method *****
 
 Integration method used for the complete ODE:
 Runge-Kutta order 5 (RK5) from ODESIM
 
-Total number of RK5 steps:        3382
-Number of accepted RK5 steps:     3220
-Number of rejected RK5 steps:      162
+Total number of RK5 steps:        4898
+Number of accepted RK5 steps:     4791
+Number of rejected RK5 steps:      107
 
 
 **** GWP basis dynamic coupling ****
@@ -902,13 +733,13 @@ Number of rejected RK5 steps:      162
 
 ***** Overall Timing *****
 
-Total cpu time     [s] :         13.50
-Total system time  [s] :          1.31
-Total time      [h:m:s] :    0 :  0 : 14.81
+Total cpu time     [s] :         17.45
+Total system time  [s] :          1.53
+Total time      [h:m:s] :    0 :  0 : 18.98
 
 ***** God's final message *****
 
 Program terminated normally.
 
------- Host: "tp-linux1" ----------Tue Mar 21 13:07:33 2017
+------ Host: "tp-linux1" ----------Wed Mar 22 15:42:42 2017
                     

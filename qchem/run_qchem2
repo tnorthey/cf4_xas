@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for i in ddtraj1t{51..100}.inp
+for i in ddtraj1t{26..50}.inp
 do
 qchem $i ${i%.*}.out
 done

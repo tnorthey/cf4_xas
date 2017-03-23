@@ -152,7 +152,7 @@ Be sure the charge and spin multiplicity are correct. Then, check the qchem/temp
 	SCF_CONVERGENCE = 6
 	$end
 	
-Choose the method (e.g. CVS-ADC(1), CVS-ADC(2), CVS-ADC(2)-x) and basis set appropriately. Finally, create the inputs files with,
+Choose the method (e.g. CVS-ADC(1), CVS-ADC(2), CVS-ADC(2)-x) and basis set appropriately. Finally, create the input files with,
 
 	cd qchem/
 	for i in *xyz
@@ -167,4 +167,11 @@ This creates Nt\*Ngwp .inp files. They can be run as needed (e.g. paste the foll
 	qchem $i ${i%.*}.out	
 	done
 	
+Generate spectra with the spectrum.py function, 
+
+	python spectrum.py adc qchem/qchem.out 1.0
+	
+A file 'spectrum.dat' will be generated. The 'adc' option is needed here, for the QChem output file 'qchem/qchem.out', and the spectrum will be weighted by a factor of 1.0 in this case. Ideally, use the Gaussian weighting coefficients in the quantics 'output' file.
+
+
 

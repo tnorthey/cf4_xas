@@ -1,7 +1,7 @@
 %mem=5000MB
 %Nprocshared=1
 %chk=$chk0$
-#P UHF/6-31g* IOP(7/33=1) IOP(7/8=11) 
+#P UHF/6-31g* SCF(XQC,Conver=7) IOP(7/33=1) IOP(7/8=11) 
 $Freq:Freq$
 
 CF4+

@@ -1,0 +1,240 @@
+ Quantum Chemistry Time:145406.321145350.708
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 000000000000086c, rsp 00007ffcdc4bc928, rbp 00007ffcdc4bcea0
+   rsi 000000000000000b, rdi 000000000000086c, r8  00002af7a85c4800
+   r9  0000000000000000, r10 00007ffcdc4bc6f0, r11 0000000000000206
+   r12 0000000000000000, r13 0000000000000000, r14 00007ffcdc4bcee8
+   r15 00000000000003e6
+  --- traceback not available
+Aborted (core dumped)
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 00000000000008f2, rsp 00007fff46f20018, rbp 00007fff46f20590
+   rsi 000000000000000b, rdi 00000000000008f2, r8  00002b5c830be800
+   r9  0000000000000000, r10 00007fff46f1fde0, r11 0000000000000206
+   r12 0000000000000000, r13 0000000000000000, r14 00007fff46f205d8
+   r15 00000000000003e6
+  --- traceback not available
+Aborted (core dumped)
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 0000000000000a5a, rsp 00007ffd5d5a6b28, rbp 00007ffd5d5a70a0
+   rsi 000000000000000b, rdi 0000000000000a5a, r8  00002b0bdc45c800
+   r9  0000000000000000, r10 00007ffd5d5a68f0, r11 0000000000000206
+   r12 0000000000000000, r13 0000000000000000, r14 00007ffd5d5a70e8
+   r15 00000000000003e6
+  --- traceback not available
+Aborted (core dumped)
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 0000000000000a9d, rsp 00007ffe25989688, rbp 00007ffe25989c00
+   rsi 000000000000000b, rdi 0000000000000a9d, r8  00002aedc0dd4800
+   r9  0000000000000000, r10 00007ffe25989450, r11 0000000000000206
+   r12 0000000000000000, r13 0000000000000000, r14 00007ffe25989c48
+   r15 00000000000003e6
+  --- traceback not available
+Aborted (core dumped)
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 0000000000000aee, rsp 00007fff859c3448, rbp 00007fff859c39c0
+   rsi 000000000000000b, rdi 0000000000000aee, r8  00002ab3ce913800
+   r9  0000000000000000, r10 00007fff859c3210, r11 0000000000000206
+   r12 0000000000000000, r13 0000000000000000, r14 00007fff859c3a08
+   r15 00000000000003e6
+  --- traceback not available
+Aborted (core dumped)
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 0000000000000b55, rsp 00007ffe0f435f68, rbp 00007ffe0f4364e0
+   rsi 000000000000000b, rdi 0000000000000b55, r8  00002ac7ddb1c800
+   r9  0000000000000000, r10 00007ffe0f435d30, r11 0000000000000202
+   r12 0000000000000000, r13 0000000000000000, r14 00007ffe0f436528
+   r15 00000000000003e6
+  --- traceback not available
+Aborted (core dumped)
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 0000000000000b9a, rsp 00007ffd2d62ff08, rbp 00007ffd2d630480
+   rsi 000000000000000b, rdi 0000000000000b9a, r8  00002b25dcb3a800
+   r9  0000000000000000, r10 00007ffd2d62fcd0, r11 0000000000000202
+   r12 0000000000000000, r13 0000000000000000, r14 00007ffd2d6304c8
+   r15 00000000000003e6
+  --- traceback not available
+Aborted (core dumped)
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 0000000000000bcc, rsp 00007ffe0c016e48, rbp 00007ffe0c0173c0
+   rsi 000000000000000b, rdi 0000000000000bcc, r8  00002b2a6a035800
+   r9  0000000000000000, r10 00007ffe0c016c10, r11 0000000000000206
+   r12 0000000000000000, r13 0000000000000000, r14 00007ffe0c017408
+   r15 00000000000003e6
+  --- traceback not available
+Aborted (core dumped)
+Error: software termination
+   rax 00000000000000d8, rbx 000000000000009e, rcx 00002b356dd84b08
+   rdx 00002b356dd77ae8, rsp 00007ffd62eae600, rbp 00007ffd62eaeee0
+   rsi 00002b356dd7c040, rdi 00002b356dd805a0, r8  0000000000004550
+   r9  00002b35708bb460, r10 00000000000008ab, r11 00000000000008aa
+   r12 00002b35708bb460, r13 00002b35708b37a8, r14 00002b35708bf9b0
+   r15 00002b356cab14b0
+Error: software termination
+   rax fffffffffffffffc, rbx 00007ffcc2d7e800, rcx ffffffffffffffff
+   rdx 0000000000000000, rsp 00007ffcc2d7e7c8, rbp 0000000000000001
+   rsi 00007ffcc2d7e800, rdi 0000000000000cec, r8  00002ba906f106e0
+   r9  0000000000000000, r10 0000000000000000, r11 0000000000000246
+   r12 00007ffcc2d7e820, r13 000000000000004d, r14 0000000000000000
+   r15 00007ffcc2d851e0
+  --- traceback not available
+  --- traceback not available
+Error: software termination
+   rax 0000000000003710, rbx 00000000000000cf, rcx 00002ad741694b30
+   rdx 00002ad741688d70, rsp 00007ffc02274820, rbp 00007ffc02275100
+   rsi 00002ad74168cca8, rdi 00002ad741690be8, r8  0000000000003f30
+   r9  00002ad742604670, r10 00000000000007e7, r11 00000000000007e6
+   r12 00002ad742604670, r13 00002ad7425f6a88, r14 00002ad7426085a0
+   r15 00002ad7406ee348
+Error: software termination
+   rax fffffffffffffffc, rbx 00007ffe5d3ddd60, rcx ffffffffffffffff
+   rdx 0000000000000000, rsp 00007ffe5d3ddd28, rbp 0000000000000001
+   rsi 00007ffe5d3ddd60, rdi 000000000000102a, r8  00002abca6b2f6e0
+   r9  0000000000000000, r10 0000000000000000, r11 0000000000000246
+   r12 00007ffe5d3ddd80, r13 000000000000004d, r14 0000000000000000
+   r15 00007ffe5d3e4740
+  --- traceback not available
+  --- traceback not available
+ Quantum Chemistry Time:151702.080151650.454
+ Quantum Chemistry Time:151712.494151702.237
+ Quantum Chemistry Time:151736.074151712.680
+ Quantum Chemistry Time:151746.368151736.236
+ Quantum Chemistry Time:151812.926151746.554
+ Quantum Chemistry Time:151824.483151813.099
+ Quantum Chemistry Time:151836.063151824.654
+ Quantum Chemistry Time:151847.523151836.200
+ Quantum Chemistry Time:151922.044151847.667
+ Quantum Chemistry Time:151934.750151922.228
+ Quantum Chemistry Time:151944.191151934.928
+ Quantum Chemistry Time:151955.527151944.383
+ Quantum Chemistry Time:152005.276151955.720
+ Quantum Chemistry Time:152015.996152005.422
+ Quantum Chemistry Time:152030.444152016.180
+ Quantum Chemistry Time:152041.115152030.618
+ Quantum Chemistry Time:152051.230152041.209
+ Quantum Chemistry Time:152102.996152051.392
+ Quantum Chemistry Time:152116.493152103.162
+ Quantum Chemistry Time:152127.167152116.671
+ Quantum Chemistry Time:152137.031152127.348
+ Quantum Chemistry Time:152150.530152137.212
+ Quantum Chemistry Time:152158.894152150.668
+ Quantum Chemistry Time:152210.145152159.060
+ Quantum Chemistry Time:152218.879152210.304
+ Quantum Chemistry Time:152229.553152219.045
+ Quantum Chemistry Time:152242.665152229.732
+ Quantum Chemistry Time:152250.632152242.851
+ Quantum Chemistry Time:152258.114152250.828
+ Quantum Chemistry Time:152306.289152258.286
+ Quantum Chemistry Time:152314.181152306.470
+ Quantum Chemistry Time:152322.919152314.351
+ Quantum Chemistry Time:152333.056152323.067
+ Quantum Chemistry Time:152341.502152333.239
+ Quantum Chemistry Time:152351.524152341.676
+ Quantum Chemistry Time:152400.090152351.709
+ Quantum Chemistry Time:152409.284152400.201
+ Quantum Chemistry Time:152419.947152409.506
+ Quantum Chemistry Time:152429.354152420.122
+ Quantum Chemistry Time:152438.641152429.446
+ Quantum Chemistry Time:152449.806152438.841
+ Quantum Chemistry Time:152458.776152449.957
+ Quantum Chemistry Time:152509.155152458.985
+ Quantum Chemistry Time:152519.025152509.348
+ Quantum Chemistry Time:152527.726152519.201
+ Quantum Chemistry Time:152536.295152527.842
+ Quantum Chemistry Time:152544.739152536.492
+ Quantum Chemistry Time:152555.628152544.914
+ Quantum Chemistry Time:152605.449152555.793
+ Quantum Chemistry Time:152615.549152605.631
+ Quantum Chemistry Time:152629.408152615.731
+ Quantum Chemistry Time:152638.985152629.597
+ Quantum Chemistry Time:152650.849152641.763
+ Quantum Chemistry Time:152709.601152651.029
+ Quantum Chemistry Time:152718.826152709.754
+ Quantum Chemistry Time:152726.745152718.928
+ Quantum Chemistry Time:152735.505152726.848
+ Quantum Chemistry Time:152745.858152735.680
+ Quantum Chemistry Time:152756.722152745.988
+ Quantum Chemistry Time:152804.626152756.917
+ Quantum Chemistry Time:152813.657152804.811
+ Quantum Chemistry Time:152823.876152813.831
+ Quantum Chemistry Time:152847.731152824.040
+ Quantum Chemistry Time:152905.501152847.829
+ Quantum Chemistry Time:152919.623152905.675
+ Quantum Chemistry Time:152929.946152919.746
+ Quantum Chemistry Time:152938.350152930.065
+ Quantum Chemistry Time:152947.906152938.548
+ Quantum Chemistry Time:152959.002152948.020
+ Quantum Chemistry Time:153011.802152959.108
+ Quantum Chemistry Time:153020.518153011.967
+ Quantum Chemistry Time:153044.624153020.617
+ Quantum Chemistry Time:153051.842153044.742
+ Quantum Chemistry Time:153100.763153051.973
+ Quantum Chemistry Time:153112.056153100.964
+ Quantum Chemistry Time:153122.028153112.250
+ Quantum Chemistry Time:153131.452153122.222
+ Quantum Chemistry Time:153141.116153131.562
+ Quantum Chemistry Time:153148.946153141.292
+ Quantum Chemistry Time:153158.241153149.140
+ Quantum Chemistry Time:153205.410153158.426
+ Quantum Chemistry Time:153213.508153205.600
+ Quantum Chemistry Time:153222.025153213.705
+ Quantum Chemistry Time:153428.415153420.391
+ Quantum Chemistry Time:153438.573153428.591
+ Quantum Chemistry Time:153448.700153438.770
+ Quantum Chemistry Time:153456.387153448.827
+ Quantum Chemistry Time:153505.023153456.593
+ Quantum Chemistry Time:153514.433153505.549
+ Quantum Chemistry Time:153522.683153514.561
+ Quantum Chemistry Time:153531.922153522.883
+ Quantum Chemistry Time:153544.430153532.114
+ Quantum Chemistry Time:153552.351153544.564
+ Quantum Chemistry Time:153600.845153552.542
+ Quantum Chemistry Time:153609.443153600.959
+ Quantum Chemistry Time:153619.167153609.612
+ Quantum Chemistry Time:153628.771153619.340
+ Quantum Chemistry Time:153645.175153628.945
+ Quantum Chemistry Time:153653.043153645.311
+ Quantum Chemistry Time:153702.167153653.216
+ Quantum Chemistry Time:153713.245153702.365
+ Quantum Chemistry Time:153722.619153713.443
+ Quantum Chemistry Time:153730.661153722.797
+ Quantum Chemistry Time:153742.901153730.817
+ Quantum Chemistry Time:153755.609153743.062
+ Quantum Chemistry Time:153806.437153755.794
+ Quantum Chemistry Time:153815.028153806.643
+ Quantum Chemistry Time:153823.593153815.223
+ Quantum Chemistry Time:153832.752153823.740
+ Quantum Chemistry Time:153842.260153832.929
+ Quantum Chemistry Time:153854.704153842.436
+ Quantum Chemistry Time:153906.155153854.870
+ Quantum Chemistry Time:153916.828153906.316
+ Quantum Chemistry Time:153926.899153917.017
+ Quantum Chemistry Time:153941.060153927.106
+ Quantum Chemistry Time:153949.645153941.289
+ Quantum Chemistry Time:153957.670153949.847
+ Quantum Chemistry Time:154007.376153957.865
+ Quantum Chemistry Time:154016.780154007.564
+ Quantum Chemistry Time:154026.984154016.952
+ Quantum Chemistry Time:154037.726154027.145
+ Quantum Chemistry Time:154045.934154037.944
+ Quantum Chemistry Time:154056.555154046.166
+ Quantum Chemistry Time:154106.604154056.729
+ Quantum Chemistry Time:154117.855154108.094
+ Quantum Chemistry Time:154126.754154118.050
+ Quantum Chemistry Time:154135.900154126.910
+ Quantum Chemistry Time:154145.009154136.059
+ Quantum Chemistry Time:154153.103154145.180
+ Quantum Chemistry Time:154201.067154153.256
+ Quantum Chemistry Time:154209.216154201.258
+ Quantum Chemistry Time:154217.807154209.432
+ Quantum Chemistry Time:154227.011154218.023
+ Quantum Chemistry Time:154234.831154227.179
+ Quantum Chemistry Time:154242.644154235.006
