@@ -15,7 +15,9 @@ for x in range(1, Ngwp + 1):            # loop over GWPs
       if c%3==0:
          alist.append(AtomList[i/3])    # Atomic numbers
       if c%(Nat*3)==0:                  
-          fname="qchem/ddtraj" + str(x) + "t" + str(d) + ".xyz"         # name of xyz file
+          itraj=format(x, '02d')
+          itime=format(d, '03d')
+          fname="qchem/ddtraj" + str(itraj) + "t" + str(itime) + ".xyz"         # name of xyz file
           comment=str(gWeights[x-1][d])                                 # comment with the Gaussian weighting coefficient 
           write_xyz(alist,clist,fname,comment)                          # write the xyz file
           c=0
