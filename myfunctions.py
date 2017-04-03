@@ -141,6 +141,7 @@ def read_output(fname,Nstate,Ng):
    # Outputs:	Time (float list), list of time in fs 
    # 		gWeights (float array), Gaussian populations with columns 0,1,...,Ng-1 pertaining to Gaussians 1,2,...,Ng
    ##################################################
+   import re
    Time=[]; gWeights=[]
    X=0; c=0; j=0
    for i in range(Ng):
@@ -157,8 +158,11 @@ def read_output(fname,Nstate,Ng):
 	    c+=1						# Line counter for Gaussian populations part
 	    for i in range(7):
 	       j+=1
-               string=line.split(":", 1)[1]
+               #string=line.split(":", 1)[1]
+               tmp=re.split(':|>',line)
+               string=tmp[1]
 	       gWeights[i+7*(c-1)].append(float(string.split()[i]))
+               print string.split()[i]
 	       if j==Ng:					# break after Ng floats have been appended to gWeights
 	          break
             if c==X:
